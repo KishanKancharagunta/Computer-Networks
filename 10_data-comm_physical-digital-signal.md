@@ -1,5 +1,9 @@
 # Digital Signal
+- Use digital bits (0/1) to encode voltage levels.
+- N levels need log<sub>2</sub>N bits.
 ![](fig/digital-signal.png)
+- based on Fourier analysis, a digital signal is a composite analog signal, which the bandwidth is infinite.
+  - a vertical line in the time domain means a frequency of infinity.
 - most digital signals are ___nonperiodic___, so __periodic__ and __frequency__ are not appropriate characteristics.
 - __Bit rate__ is the number of bits in 1 second (bps).
   > EX: <br>
