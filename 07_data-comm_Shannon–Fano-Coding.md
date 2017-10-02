@@ -11,6 +11,7 @@
 |x<sub>6</sub>|0.05|1|1|1|1|1111|
 
 __Expected code length (L) = 2.38 bits/symbol__
+- [&Sigma;{_i_=1:_N_} _p<sub>i</sub>l<sub>i</sub>_](https://github.com/cnchenpu/data-comm/blob/master/05_data-comm_huffman-code.md#expected-code-length)
 
 __Entropy (H) = 2.36 bits/symbol__
 
