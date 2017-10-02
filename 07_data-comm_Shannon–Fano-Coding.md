@@ -34,9 +34,9 @@ __Entropy (H) = 2.36 bits/symbol__
 |x<sub>7</sub>|0.10|1|1|1|0|1110|
 |x<sub>8</sub>|0.10|1|1|1|1|1111|
 
-__Expected code length (L) = 0.3 * 2 + 0.25 * 2 + 0.1  *3 + 0.1 * 4 + 0.1 * 4 + 0.1 * 3 + 0.1 * 4 + 0.1 * 4 = 3.3 bits/symbol__
+__Expected code length (L)__ = 0.3 * 2 + 0.25 * 2 + 0.1 * 3 + 0.1 * 4 + 0.1 * 4 + 0.1 * 3 + 0.1 * 4 + 0.1 * 4 = 3.3 bits/symbol
 
-__Entropy (H) = 0.3 * 1.736 + 0.2 * 2.236 + 0.1 * 3.165 + 0.1 * 3.165 + 0.1 * 3.165 + 0.1 * 3.165 + 0.1 * 3.165 = 2.55 bits/symbol__
+__Entropy (H)__ = 0.3 * 1.736 + 0.2 * 2.236 + 0.1 * 3.165 + 0.1 * 3.165 + 0.1 * 3.165 + 0.1 * 3.165 + 0.1 * 3.165 = 2.55 bits/symbol
 
 
 ### Question: Compare to this Huffman code [example](https://github.com/cnchenpu/data-comm/blob/master/05_data-comm_huffman-code.md#example).
