@@ -19,7 +19,9 @@
 - phase (degree)
     - the position of the waveform relative to time 0 (horizontal shifting)
     > EX: same amplitude and frequency but different phase
+    
     ![](fig/sine-wave-2.png)
+    
 - wavelength 
     - the length of a cycle of wave in a medium
     - propagration speed * period = propagration speed / frequency
@@ -42,7 +44,9 @@ __A complete sine wave in the time domain can be represented by one sigle spike 
 
 ## Composite Signals
 ![](fig/composite-signal.png)
+
 ![](fig/sine-wave-3.png)
+
 __A composite signal is a combination of simple sine waves with different frequencies, amplitudes and phases.__
 - __Periodic__ composite signal can be decomposed into a series of simple sine waves with discrete frequencies that have integer values.
 - __Nonperiodic__ composite signal can be decomposed into a combination of an infinite number of simple sine waves with continuous frequencies that have real values.
