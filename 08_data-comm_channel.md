@@ -58,7 +58,13 @@ where:
 - C: Channel capacity (bits per second)
 - B: Bandwidth of channel (Hz)
 - S/N: signal to noise ratio, S: received signal, N: noise
+
 > Information Rate (R) = Sample Rate * Entropy = (sample/sec) * (bits/sample) <br>
 > C = 2B * log<sub>2</sub>&radic;(1+S/N) <br>
 > = 1/2 * 2B * log<sub>2</sub>(1+S/N) <br>
 > = B * log<sub>2</sub>(1+S/N)
+
+### Tradeoffs
+- Increase bandwidth or signal power, increase data rate.
+- Increase of noise, reduce data rate.
+- Increase bandwidth, allow more noise.
