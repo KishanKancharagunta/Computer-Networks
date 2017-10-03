@@ -4,7 +4,9 @@
 
 ![](fig/digital-signal.png)
 
-- based on Fourier analysis, a digital signal is a composite analog signal, which the bandwidth is infinite.
+- based on __Fourier analysis__, a digital signal is a composite analog signal, which the bandwidth is infinite.
+  - __Fourier__ showed that a composite periodic signal can be decomposited into a serial of sine and cosine functions which called ___Fourier series___. 
+  - a horizon line in the time domain, no changes in time, means a frequency of 0.
   - a vertical line in the time domain means a frequency of infinity.
 - most digital signals are ___nonperiodic___, so __periodic__ and __frequency__ are not appropriate characteristics.
 - __Bit rate__ is the number of bits in 1 second (bps).
@@ -13,14 +15,11 @@
   > The bit rate is 1920 x 1080 x 30 x 24 &asymp; 1.5 Gbps
   
 - __Bit length__ is the distance one bit occupies on the transmission medium. (The concept of __wavelength__ in analog signals)
-
-## Digital Signal as a Composite Analog Signal
 - A digital signal is a composite analog signal with an infinite bandwidth.
-- Time and frequency domain of periodic and nonperiodic digital signals
-![](fig/digital-signal-2.png)
 
 ## Transmission of Digital Signals
-- __Baseband Transmission__
+![](http://2.bp.blogspot.com/-eTPsW40tID0/UaRHWMH8BbI/AAAAAAAAIws/SiT59SYIZH4/s1600/difference+between+Baseband+and+BroadBand.gif)
+- __Baseband Transmission (without modulation)__
   - signal that has a very narrow and near-zero frequency range
-  - signals are transmitted without modulation
-- Broadband Transmission (using modulation)
+- __Broadband Transmission (using modulation)__
+
