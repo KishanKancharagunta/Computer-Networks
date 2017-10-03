@@ -1,7 +1,7 @@
 Note: <br>
 - A: On time and correct.
 - B: Delay or not correct.
-- : None.  
+- &nbsp;&nbsp;: None.  
 
 |No.|Due date|410403440|410415722|yazih|410419093|410428660|sunjiayi|s1032875|410315257|s1032874|junshen|410226335|
 |----|----|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
