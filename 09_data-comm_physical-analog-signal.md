@@ -53,6 +53,8 @@ __A composite signal is a combination of simple sine waves with different freque
 
 ![](fig/time-freq-domain-2.png)
 
+- frequency = 0: the amplitude is not changing in time period
+
 ![](fig/time-freq-domain-3.png)
 
 ## Bandwidth
