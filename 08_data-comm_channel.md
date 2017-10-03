@@ -64,6 +64,11 @@ where:
 > = 1/2 * 2B * log<sub>2</sub>(1+S/N) <br>
 > = B * log<sub>2</sub>(1+S/N)
 
+> EX: SNR
+> The power of signal is 10 mW, and the power of noise is 1 &mu;W
+> SNR = 10000 &mu;W / 1 &mu;W = 10000.
+> SNR<sub>dB</sub> = 10 * log<sub>10</sub>10000 = 10 * log<sub>10</sub>10<sup>4</sup) = 40.
+
 ### Tradeoffs
 - Increase bandwidth or signal power, increase data rate.
 - Increase of noise, reduce data rate.
