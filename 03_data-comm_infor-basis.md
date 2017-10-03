@@ -96,6 +96,11 @@ __Question 2: (Homework, due date: 9/25)__
 
 Determine the entropy of above example (question 1), if the probability of above messages (in question 1) are equally.
 
+> Ans:
+>
+> H = (1/4)log<sub>2</sub>(4) + (1/4)log<sub>2</sub>(4) + (1/4)log<sub>2</sub>(4) + (1/4)log<sub>2</sub>(4) <br>
+>  = 1/2 + 1/2 + 1/2 + 1/2 <br>
+>  = 2 (bits/message).
 
 ## Information Rate
 - Average entropy per symbol (bits/sec)
