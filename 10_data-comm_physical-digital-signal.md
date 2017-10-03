@@ -20,6 +20,7 @@
 ![](fig/digital-signal-2.png)
 
 ## Transmission of Digital Signals
-- Baseband Transmission
-  - sending a digital signal over a channel without changing the digital signal to an analog signal
+- __Baseband Transmission__
+  - signal that has a very narrow and near-zero frequency range
+  - signals are transmitted without modulation
 - Broadband Transmission (using modulation)
