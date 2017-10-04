@@ -29,6 +29,7 @@ __Packets -> Bits -> Signals -> Bits -> Packets__
 - Both the sender and receiver use its internal clock to determine when to generate or acquire the next voltage sample. And both use counters to keep track of how many samples there are in each bit. <br>
 - If their clock don't exactly match, for example, the sender sending 5 samples per bit, but receiver's clock is a little slower, the receiver will seems to be transmitting faster, it may receive 4.999 samples per bit. Similarly, if receiver's clock is a little faster, the sender will seems to be transmitting slower, e.g., transmite at 5.001 samples per bit.
 - __Sample Rate__: The number of samples per second.
+    - Nyquist showed the minimum sample rate must be 2 times of higest signal frequency.
 - __Clock Rate__: The number of clock cycle per second __(Hz)__.
    
 ![](fig/sample-interval.png)
@@ -43,13 +44,21 @@ A channel is viewed in terms of its possible inputs (_x_), its possible outpus (
 
 # Channel Capacity
 The channel capacity represents the maximum amount of information that can be transmitted by a channel per second.
-> Information Rate (R): (symbols per second) * (information bits per symbol)
+> Information Rate (R): (symbols per second) * (information bits per symbol) <br>
+> = sample rate * entropy.
 
 ## Data Rate Limits
-The maximum data rate limit over a medium is decided by followinf factors:
+The maximum data rate limit over a medium is decided by following factors:
 - __B__ Bandwidth of channel (the range of frequency)
 - __S__ Signal power levels 
 - __N__ Channel quality (level of noise)
+
+## Noiseless Channel
+Bit rate = 2 x B * log<sub>2</sub>L
+
+where:
+- B: Bandwidth of channel (Hz)
+- L: the number of bits (singal levels) per sample
 
 ## Shannon Capacity (Noisy Channel)
 __C = B * log<sub>2</sub>(1+S/N)__ bits/s
@@ -67,7 +76,7 @@ where:
 > EX: SNR <br>
 > The power of signal is 10 mW, and the power of noise is 1 &mu;W <br>
 > SNR = 10000 &mu;W / 1 &mu;W = 10000. <br>
-> SNR<sub>dB</sub> = 10 * log<sub>10</sub>10000 = 10 * log<sub>10</sub>10<sup>4</sup) = 40. <br>
+> SNR<sub>dB</sub> = 10 * log<sub>10</sub>10000 = 10 * log<sub>10</sub>10<sup>4</sup> = 40. <br>
 
 ### Tradeoffs
 - Increase bandwidth or signal power, increase data rate.
