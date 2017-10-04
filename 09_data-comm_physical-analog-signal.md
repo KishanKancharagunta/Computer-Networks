@@ -32,6 +32,8 @@
 
 __A complete sine wave in the time domain can be represented by one sigle spike in the frequency domain.__
 
+> EX: Fourier showed that a composite periodic signal can be decomposited into a serial of sine and cosine functions which called Fourier series.
+
 ### Time domain 
 - the sine wave that defined by its amplitude, frequency and phase.
 - shows the changes in signal amplitude with respect to time
