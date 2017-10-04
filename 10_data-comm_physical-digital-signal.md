@@ -6,6 +6,7 @@
 
 - based on __Fourier analysis__, a digital signal is a composite analog signal, which the bandwidth is infinite.
   - __Fourier__ showed that a composite periodic signal can be decomposited into a serial of sine and cosine functions which called ___Fourier series___. 
+  - A digital signal composited by infinite number of frequency of signals, so its bandwidth is infinite.
   - a horizon line in the time domain, no changes in time, means a frequency of 0.
   - a vertical line in the time domain means a frequency of infinity.
 - most digital signals are ___nonperiodic___, so __periodic__ and __frequency__ are not appropriate characteristics.
