@@ -21,6 +21,7 @@
 ## Transmission of Digital Signals
 ![](http://2.bp.blogspot.com/-eTPsW40tID0/UaRHWMH8BbI/AAAAAAAAIws/SiT59SYIZH4/s1600/difference+between+Baseband+and+BroadBand.gif)
 - __Baseband Transmission (without modulation)__
+  - __Low-pass__ channel has bandwidth with frequencies between 0 and f.
   - signal that has a very narrow and near-zero frequency range
 - __Broadband Transmission (using modulation)__
-
+  - __Band-pass__ channel has bandwidth with frequencies between f1 and f2.
