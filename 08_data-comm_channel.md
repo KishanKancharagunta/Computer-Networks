@@ -28,6 +28,9 @@ __Packets -> Bits -> Signals -> Bits -> Packets__
 - The peer of sender and receiver need to aggree the same ___sample rate___ and ___clock rate___ in communication.
 - Both the sender and receiver use its internal clock to determine when to generate or acquire the next voltage sample. And both use counters to keep track of how many samples there are in each bit. <br>
 - If their clock don't exactly match, for example, the sender sending 5 samples per bit, but receiver's clock is a little slower, the receiver will seems to be transmitting faster, it may receive 4.999 samples per bit. Similarly, if receiver's clock is a little faster, the sender will seems to be transmitting slower, e.g., transmite at 5.001 samples per bit.
+
+![](time-sync.png)
+
 - __Sample Rate__: The number of samples per second.
     - Nyquist showed the minimum sample rate must be 2 times of higest signal frequency.
 - __Clock Rate__: The number of clock cycle per second __(Hz)__.
