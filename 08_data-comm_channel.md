@@ -60,6 +60,7 @@ The maximum data rate limit over a medium is decided by following factors:
 
 ## Noiseless Channel
 - __Nyquist theorem__ showed that to produce the original analog signal, the sample rate must be at least twice the higest frequency in the original signal.
+
 __Nyquist sample rate = 2 x f<sub>max</sub>__
 
 The maximum bit rate = 2 x B * log<sub>2</sub>L
@@ -84,6 +85,7 @@ where:
 ### Decibel (dB)
 - The decibel (dB) measures the relative strength of two signals.
 - The decibel is positive if signal sttrengthened, and it is negative when signal attenuates.
+
 __dB = 10 log<sub>10</sub>(P<sub>2</sub>/P<sub>1</sub>)__
 
 > EX: SNR <br>
