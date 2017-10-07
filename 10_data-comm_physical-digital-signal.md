@@ -14,7 +14,10 @@
   > EX: <br>
   > HDTV - 1920x1080 pixels a picture, 24 bits colors per pixcel, and 30 frames per second. <br>
   > The bit rate is 1920 x 1080 x 30 x 24 &asymp; 1.5 Gbps
-  
+- __Bit interval__ is the inverse of the bit rate (second).
+  > EX: <br>
+  > A signal has a bit rate of 2000 bps, its bit interval is <br>
+  > 1/2000s = 0.0005s = 500 &mu;s
 - __Bit length__ is the distance one bit occupies on the transmission medium. (The concept of __wavelength__ in analog signals)
 - A digital signal is a composite analog signal with an infinite bandwidth.
 
