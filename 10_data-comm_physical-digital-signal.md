@@ -17,7 +17,8 @@
 - __Bit interval__ is the inverse of the bit rate (second).
   > EX: <br>
   > A signal has a bit rate of 2000 bps, its bit interval is <br>
-  > 1/2000s = 0.0005s = 500 &mu;s
+  > 1/2000s = 0.0005s = 500 &mu;s <br>
+  ![](fig/bit-interval.png)
 - __Bit length__ is the distance one bit occupies on the transmission medium. (The concept of __wavelength__ in analog signals)
 - A digital signal is a composite analog signal with an infinite bandwidth.
 
