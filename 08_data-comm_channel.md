@@ -35,9 +35,9 @@ __Packets -> Bits -> Signals -> Bits -> Packets__
     - Nyquist showed the minimum sample rate must be 2 times of higest signal frequency.
 - __Clock Rate__: The number of clock cycle per second __(Hz)__.
    
-![](fig/sample-interval.png)
+![sample intercal](fig/sample-interval.png)
 
-![](fig/transmit-samples.png)
+![transmit samples](fig/transmit-samples.png)
 
 # Communication Channel
 A channel is viewed in terms of its possible inputs (_x_), its possible outpus (_y_), and how the input affect the output (_P(y|x)_).
@@ -59,7 +59,11 @@ The maximum data rate limit over a medium is decided by following factors:
 - __N__ Channel quality (level of noise)
 
 ## Noiseless Channel
-Bit rate = 2 x B * log<sub>2</sub>L
+- __Nyquist theorem__ showed that to produce the original analog signal, the sample rate must be at least twice the higest frequency in the original signal.
+
+__Nyquist sample rate = 2 x f<sub>max</sub>__
+
+The maximum bit rate = 2 x B * log<sub>2</sub>L
 
 where:
 - B: Bandwidth of channel (Hz)
