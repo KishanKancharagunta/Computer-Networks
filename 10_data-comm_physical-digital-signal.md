@@ -9,6 +9,7 @@
   - A digital signal composited by infinite number of frequency of signals, so its bandwidth is infinite.
   - a horizon line in the time domain, no changes in time, means a frequency of 0.
   - a vertical line in the time domain means a frequency of infinity.
+  ![](fig/digi-signal-3.png)
 - most digital signals are ___nonperiodic___, so __periodic__ and __frequency__ are not appropriate characteristics.
 - __Bit rate__ is the number of bits in 1 second (bps).
   > EX: <br>
