@@ -5,7 +5,7 @@
 ![](fig/digital-signal.png)
 
 - based on __Fourier analysis__, a digital signal is a composite analog signal, which the bandwidth is infinite.
-  - __Fourier__ showed that a composite periodic signal can be decomposited into a serial of sine and cosine functions which called ___Fourier series___. 
+  - __Fourier__ showed that a composite periodic signal can be decomposited into a serial of sine and cosine functions which called ___Fourier series___. <br>
   ![](fig/digi-signal-3.png)
   - A digital signal composited by infinite number of frequency of signals, so its bandwidth is infinite.
   - a horizon line in the time domain, no changes in time, means a frequency of 0.
