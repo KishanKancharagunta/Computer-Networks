@@ -110,6 +110,7 @@ __dB = 10 log<sub>10</sub>(P<sub>2</sub>/P<sub>1</sub>)__
 >> SNR<sub>dB</sub> = 10log<sub>10</sub>SNR <br>
 >> SNR = 10<sup>SNR<sub>dB</sub>/10</sup> <br>
 >> SNR = 10<sup>3.6</sup> = 3981 <br>
+>
 > C = 2 x 10<sup>6</sup> x log<sub>2</sub>(1 + 3981) = 24 Mpbs.
 
 ### Tradeoffs
