@@ -89,6 +89,11 @@ where:
 > = 1/2 * 2B * log<sub>2</sub>(1+S/N) <br>
 > = B * log<sub>2</sub>(1+S/N)
 
+> EX: <br>
+> A telephone line has a bandwidth of 3000 Hz assigned for data communictions and the SNR is 3162. The maximum bit rate is: <br>
+> 3000 x log<sub>2</sub>(1+3162) = 3000 x 11.62 <br>
+> = 34860 bps.
+
 ### Decibel (dB)
 - The decibel (dB) measures the relative strength of two signals.
 - The decibel is positive if signal sttrengthened, and it is negative when signal attenuates.
@@ -99,6 +104,13 @@ __dB = 10 log<sub>10</sub>(P<sub>2</sub>/P<sub>1</sub>)__
 > The power of signal is 10 mW, and the power of noise is 1 &mu;W <br>
 > SNR = 10000 &mu;W / 1 &mu;W = 10000. <br>
 > SNR<sub>dB</sub> = 10 * log<sub>10</sub>10000 = 10 * log<sub>10</sub>10<sup>4</sup> = 40. <br>
+
+> EX: <br>
+> Assume the SNR<sub>dB</sub> is 36<sub>dB</sub> and the bandwidth is 2 MHz, the theoretical channel capacity is: <br>
+>> SNR<sub>dB</sub> = 10log<sub>10</sub>SNR <br>
+>> SNR = 10<sup>SNR<sub>dB</sub>/10</sup> <br>
+>> SNR = 10<sup>3.6</sup> = 3981 <br>
+> C = 2 x 10<sup>6</sup> x log<sub>2</sub>(1 + 3981) = 24 Mpbs.
 
 ### Tradeoffs
 - Increase bandwidth or signal power, increase data rate.
