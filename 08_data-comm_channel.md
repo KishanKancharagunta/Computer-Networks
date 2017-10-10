@@ -69,6 +69,10 @@ where:
 - B: Bandwidth of channel (Hz)
 - L: the number of bits (singal levels) per sample
 
+> EX:
+> Consider a noiseless channel with a bandwidth of 3000 Hz transmitting a signal with 2 signal levels (2 bits per sample). The maximum bit rate is:
+> 2 x 3000 x log<sub>2</sub>2 = 6000 bps.
+
 ## Shannon Capacity (Noisy Channel)
 __C = B * log<sub>2</sub>(1+S/N)__ bits/s
 
