@@ -45,4 +45,7 @@ Please refer to textbook ![chapter 3](https://github.com/cnchenpu/data-comm/blob
   > c. A still better result can be achieved by using the first, third, and fifth harmonics with B = 5 × 500 kHz = 2.5 MHz. <br>
 - __Broadband Transmission (using modulation)__
   - __Band-pass__ channel has bandwidth with frequencies between f1 and f2.
+  > EX: <br>
+  > Use telephone line (4 kHz bandwidth) to transmit computer data. <br>
+  > If use 4 kHz bandwidth in low-pass channel, the maximum bit rate whould be only 8 kpbs. Use modulation and band-pass channel, we can transmit it in higher rate. <br>
   ![Modulation of a digital signal for transmission on a bandpass channel](fig/bandpass.png)
