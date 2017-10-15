@@ -1,3 +1,5 @@
+Please refer to textbook ![chapter 3](https://github.com/cnchenpu/data-comm/blob/master/ppt/Ch3-Forouzan.ppt)
+
 # Analog Signals
 - __periodic signal__: with a repeat pattern in a period
 - __nonperiodic signal__: without pattern or cycle that repeats over time
