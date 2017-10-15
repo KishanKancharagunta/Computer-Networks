@@ -11,7 +11,8 @@
     
 - <a href="https://github.com/cnchenpu/data-comm/blob/master/05_data-comm_huffman-code.md#program-project-due-date-1016"> Project 1</a>, due date: 10/16.
 
-# News:
+# Interesting:
+- <a href="http://www.bbc.com/ukchina/trad/vert_fut/2016/05/160518_vert_fut_the-invisible-language-of-trains-boats-and-planes"> 支配全球物流運輸網的秘密信號 </a>
 - <a href="https://en.wikipedia.org/wiki/Sigfox"> Sigfox 低頻低速 IoT 網路 </a>
 - <a href="http://pansci.asia/archives/124494"> 1909年的諾貝爾物理奬——長距離無線電通訊 </a>
 - <a href="https://github.com/cnchenpu/data-comm/wiki/Bluetooth-Mesh"> Bluetooth Mash </a>
