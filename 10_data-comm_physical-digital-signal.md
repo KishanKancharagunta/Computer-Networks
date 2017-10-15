@@ -1,3 +1,5 @@
+Please refer to textbook ![chapter 3](https://github.com/cnchenpu/data-comm/blob/master/ppt/Ch3-Forouzan.ppt).
+
 # Digital Signal
 - Use digital bits (0/1) to encode voltage levels.
 - N levels need log<sub>2</sub>N bits.
