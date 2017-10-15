@@ -45,6 +45,8 @@ A channel is viewed in terms of its possible inputs (_x_), its possible outpus (
 
 ![](fig/DMChannel.png)
 
+Please refer to textbook [chapter 3](https://github.com/cnchenpu/data-comm/blob/master/ppt/Ch3-Forouzan.ppt).
+
 # Channel Capacity
 The channel capacity represents the maximum amount of information that can be transmitted by a channel per second.
 > Information Rate (R): (symbols per second) * (information bits per symbol) <br>
