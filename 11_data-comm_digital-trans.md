@@ -17,4 +17,11 @@ Please refer to textbook [chapter 4](https://github.com/cnchenpu/data-comm/blob/
 > where __c__ is the case factor.
 
 ## The baud rate (not the bit rate) determines the required bandwidth for a digital signal.
-- The [Nyquist sample rate](https://github.com/cnchenpu/data-comm/blob/master/08_data-comm_channel.md#noiseless-channel) shows the maximum data rate of a channel is __2 x B x log<sub>2</sub>L__.
+- So the minimum bandwidth is signal rate: __B<sub>min</sub> = c x N x 1/r__
+- The [Nyquist sample rate](https://github.com/cnchenpu/data-comm/blob/master/08_data-comm_channel.md#noiseless-channel) shows the maximum data rate of a channel is __N<sub>max</sub> = 2 x B x log<sub>2</sub>L__.
+> - A signal with L levels actually can carry log<sub>2</sub>L bits per level, <br>
+> - if each level corresponds to 1 single element, and in average case (c = 1/2). <br>
+> Then: <br>
+> __N<sub>max</sub> = 1/c x B x 1/r = 2 x B x log<sub>2</sub>L__
+
+
