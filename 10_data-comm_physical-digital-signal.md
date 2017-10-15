@@ -38,5 +38,11 @@ Please refer to textbook ![chapter 3](https://github.com/cnchenpu/data-comm/blob
 - __Baseband Transmission (without modulation)__
   - __Low-pass__ channel has bandwidth with frequencies between 0 and f.
   - signal that has a very narrow and near-zero frequency range
+  > EX: <br>
+  > The required bandwidth of a low-pass channel to transmite in 1 Mbps bit rate: <br>
+  > a. The minimum bandwidth is B = bit rate/2, or 500 kHz. I.e., we need a low-pass channel with frequency between 0 and 500 kHz. <br>
+  > b. A better result can be achieved by using the first and the third harmonics with the required bandwidth B = 3 × 500 kHz = 1.5 MHz. <br>
+  > c. A still better result can be achieved by using the first, third, and fifth harmonics with B = 5 × 500 kHz = 2.5 MHz. <br>
 - __Broadband Transmission (using modulation)__
   - __Band-pass__ channel has bandwidth with frequencies between f1 and f2.
+  ![Modulation of a digital signal for transmission on a bandpass channel](fig/bandpass.png)
