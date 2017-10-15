@@ -14,7 +14,11 @@
 - __Bit rate__ is the number of bits in 1 second (bps).
   > EX: <br>
   > HDTV - 1920x1080 pixels a picture, 24 bits colors per pixcel, and 30 frames per second. <br>
-  > The bit rate is 1920 x 1080 x 30 x 24 &asymp; 1.5 Gbps
+  > The bit rate is 1920 x 1080 x 30 x 24 &asymp; 1.5 Gbps <br>
+  > <br>
+  > EX: <br>
+  > In a 4k Hz bandwidth analog voice signal, we sample the signal twice the higest frequency (2 samples per hertz), and each sample needs 8 bits, then the bit rate is: <br>
+  > 2 x 4000 x 8 = 64000 = 64 kbps. <br>
 - __Bit interval__ is the inverse of the bit rate (second).
   > EX: <br>
   > A signal has a bit rate of 2000 bps, its bit interval is <br>
