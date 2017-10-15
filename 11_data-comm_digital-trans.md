@@ -5,6 +5,7 @@ Please refer to textbook [chapter 4](https://github.com/cnchenpu/data-comm/blob/
 - Data element: a bit that represent a piece of information.
 - Signal element: the shortest unit of a digital signal.
 - data elements per signal elements: __r = data elements / signal elements__
+
 ![](fig/data-signal-element.png)
 
 - Data rate (N): the number of data elements (bits) send in one second __(bps)__.
