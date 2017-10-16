@@ -29,7 +29,7 @@ Please refer to textbook [chapter 4](https://github.com/cnchenpu/data-comm/blob/
 - A long string of 0s or 1s could cause a drift in the baseline (__baseline wandering__) and make it difficult for the receiver to decode correctly.
 
 ### Synchronization
-- To correctly interpret the signals received from the sender, the receiver’s bit intervals must correspond exactly to the sender’s bit intervals.
+- To correctly interpret the signals received from the sender, the receiver’s bit intervals must correspond exactly to the sender’s bit intervals. <br>
 ![](fig/digi-sign-sync.png)
 
 ## Line Coding Schemes
@@ -47,13 +47,13 @@ Please refer to textbook [chapter 4](https://github.com/cnchenpu/data-comm/blob/
 ### Polar NRZ-Level & NRZ-Invert
 - The bit 0 and 1 are in different voltage polar.
 - NRZ-L, the level of voltage determines the value of the bit.
-- NRZ-I, the change or the lack of change in the level of voltage determines the value of the bit.
+- NRZ-I, the change or the lack of change in the level of voltage determines the value of the bit. <br>
 ![](fig/NRZ-I.png)
 
 ### RZ (Return to Zero)
 - The main problem with NRZ encoding occurs when the sender and receiver clocks are not synchronized. The receiver does not know when one bit has ended and the next bit is starting. One solution is RZ scheme.
 - The signal changes not between bits but during bits.
-- The signal goes to 0 in the middle of each bit, and remains there until the beginning of the next bit.
+- The signal goes to 0 in the middle of each bit, and remains there until the beginning of the next bit. <br>
 ![](fig/RZ.png)
 
 ### Biphase: Manchester and Differential Manchester
@@ -61,6 +61,14 @@ Please refer to textbook [chapter 4](https://github.com/cnchenpu/data-comm/blob/
 - The duration of the bit is divided into two halves. The voltage remains at one level during the first half and moves to the other level in the second half.
 - The transition at the middle of the bit provides synchronization.
 - Differential Manchester, on the other hand, combines the ideas of RZ and NRZ-I.
-- There is always a transition at the middle of the bit, but the bit values are determined at the beginning of the bit. If the next bit is 0, there is a transition; if the next bit is 1, there is none.
-
+- There is always a transition at the middle of the bit, but the bit values are determined at the beginning of the bit. If the next bit is 0, there is a transition; if the next bit is 1, there is none. <br>
 ![](fig/Manchester.png)
+
+### Bipolar: AMI and pseudoternary
+- AMI: alternate mark (1) inversion, zero voltage is 0, 1 represented by alternating positive and negative voltages.
+- Pseudoternary: 1 bit is encoded as a zero voltage and the 0 bit is encoded as alternating positive and negative voltages. <br>
+![](fig/bipolar.png)
+
+## HW (due date: 10/23)
+Draw the digital signal codes: <br>
+![](fig/digi-line-code.png)
