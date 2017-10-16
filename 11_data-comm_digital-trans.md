@@ -62,4 +62,5 @@ Please refer to textbook [chapter 4](https://github.com/cnchenpu/data-comm/blob/
 - The transition at the middle of the bit provides synchronization.
 - Differential Manchester, on the other hand, combines the ideas of RZ and NRZ-I.
 - There is always a transition at the middle of the bit, but the bit values are determined at the beginning of the bit. If the next bit is 0, there is a transition; if the next bit is 1, there is none.
+
 ![](fig/Manchester.png)
