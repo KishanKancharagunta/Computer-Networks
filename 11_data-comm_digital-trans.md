@@ -16,7 +16,7 @@ Please refer to textbook [chapter 4](https://github.com/cnchenpu/data-comm/blob/
 > or in average __S = c x N x 1/r__ <br>
 > where __c__ is the case factor.
 
-## The baud rate (not the bit rate) determines the required bandwidth for a digital signal.
+## Bandwidth: The baud rate determines the required bandwidth for a digital signal.
 - So the minimum bandwidth is signal rate: __B<sub>min</sub> = c x N x 1/r__
 - The [Nyquist sample rate](https://github.com/cnchenpu/data-comm/blob/master/08_data-comm_channel.md#noiseless-channel) shows the maximum data rate of a channel is __N<sub>max</sub> = 2 x B x log<sub>2</sub>L__.
 > - A signal with L levels actually can carry log<sub>2</sub>L bits per level, <br>
@@ -24,4 +24,7 @@ Please refer to textbook [chapter 4](https://github.com/cnchenpu/data-comm/blob/
 > Then: <br>
 > __N<sub>max</sub> = 1/c x B x 1/r = 2 x B x log<sub>2</sub>L__
 
-
+## Baseline: the average signal power that receiver to decode a digital signal.
+- The incoming signal power is evaluated against the baseline to determine the value of the data element.
+- A long string of 0s or 1s could cause a drift in the baseline (__baseline wandering__) and make it difficult for the receiver to decode correctly.
+- When the voltage level in a digital signal is constant for a while, it has very low (aroud 0) frequency, that called __DC component__ 
