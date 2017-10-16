@@ -30,7 +30,7 @@ Please refer to textbook [chapter 4](https://github.com/cnchenpu/data-comm/blob/
 
 ### Synchronization
 - To correctly interpret the signals received from the sender, the receiver’s bit intervals must correspond exactly to the sender’s bit intervals.
-![](fig/digi-sing-sync.png)
+![](fig/digi-sign-sync.png)
 
 ## Line Coding Schemes
 - Unipolar - NRZ
