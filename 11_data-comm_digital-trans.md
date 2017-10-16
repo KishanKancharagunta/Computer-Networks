@@ -41,7 +41,7 @@ Please refer to textbook [chapter 4](https://github.com/cnchenpu/data-comm/blob/
 
 ### Unipolar NRZ (Non Return to Zero)
 - The signal does not return to zero at the middle of the bit.
-- positive voltage defines bit 1, zero voltage defines bit 0.
+- positive voltage defines bit 1, zero voltage defines bit 0. <br>
 ![](fig/NRZ.png)
 
 ### Polar NRZ-Level & NRZ-Invert
