@@ -24,7 +24,29 @@ Please refer to textbook [chapter 4](https://github.com/cnchenpu/data-comm/blob/
 > Then: <br>
 > __N<sub>max</sub> = 1/c x B x 1/r = 2 x B x log<sub>2</sub>L__
 
-## Baseline: the average signal power that receiver to decode a digital signal.
+### Baseline: the average signal power that receiver to decode a digital signal.
 - The incoming signal power is evaluated against the baseline to determine the value of the data element.
 - A long string of 0s or 1s could cause a drift in the baseline (__baseline wandering__) and make it difficult for the receiver to decode correctly.
-- When the voltage level in a digital signal is constant for a while, it has very low (aroud 0) frequency, that called __DC component__ 
+
+### Synchronization
+- To correctly interpret the signals received from the sender, the receiver’s bit intervals must correspond exactly to the sender’s bit intervals.
+![](fig/digi-sing-sync.png)
+
+## Line Coding Schemes
+- Unipolar - NRZ
+- Polar - NRZ, RZ, and biphase (Manchester, and differential Manchester)
+- Bipolar - AMI and pseudoternary
+- Multilevel - 2B/1Q, 8B/6T, and 4D-PAM5
+- Multitransition - MLT-3
+
+### Unipolar NRZ (Non Return to Zero)
+- The signal does not return to zero at the middle of the bit.
+- positive voltage defines bit 1, zero voltage defines bit 0.
+![](fig/NRZ.png)
+
+### Polar NRZ-Level & NRZ-Invert
+- The bit 0 and 1 are in different voltage polar.
+- NRZ-L, the level of voltage determines the value of the bit.
+- NRZ-I, the change or the lack of change in the level of voltage determines the value of the bit.
+![](fig/NRZ-I.png)
+
