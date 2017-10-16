@@ -50,3 +50,16 @@ Please refer to textbook [chapter 4](https://github.com/cnchenpu/data-comm/blob/
 - NRZ-I, the change or the lack of change in the level of voltage determines the value of the bit.
 ![](fig/NRZ-I.png)
 
+### RZ (Return to Zero)
+- The main problem with NRZ encoding occurs when the sender and receiver clocks are not synchronized. The receiver does not know when one bit has ended and the next bit is starting. One solution is RZ scheme.
+- The signal changes not between bits but during bits.
+- The signal goes to 0 in the middle of each bit, and remains there until the beginning of the next bit.
+![](fig/RZ.png)
+
+### Biphase: Manchester and Differential Manchester
+- The idea of RZ (transition at the middle of the bit) and the idea of NRZ-L are combined into the Manchester scheme.
+- The duration of the bit is divided into two halves. The voltage remains at one level during the first half and moves to the other level in the second half.
+- The transition at the middle of the bit provides synchronization.
+- Differential Manchester, on the other hand, combines the ideas of RZ and NRZ-I.
+- There is always a transition at the middle of the bit, but the bit values are determined at the beginning of the bit. If the next bit is 0, there is a transition; if the next bit is 1, there is none.
+![](fig/Manchester.png)
