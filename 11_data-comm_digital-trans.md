@@ -90,3 +90,52 @@ Please refer to textbook [chapter 4](https://github.com/cnchenpu/data-comm/blob/
 ## HW (due date: 10/23)
 Draw the digital signal codes: <br>
 ![](fig/digi-line-code.png)
+
+## Multilevel Schemes
+- The desire to increase the data speed or decrease the required bandwidth has resulted in the creation of many schemes.
+- The goal is to increase the number of bits per baud by encoding a pattern of ___m___ data elements into a pattern of ___n___ signal elements.
+- Different types of signal elements can be allowing different signal levels.
+- If we have ___L___ different levels, then we can produce ___L<sup>n</sup>___ combinations of signal patterns.
+- The data element and signal element relation is ___2<sup>m</sup> &le; L<sup>n</sup>___
+- ___mBnL___ coding, where m is the length of the binary pattern, ___B___ means binary data, ___n___ is the length of the signal pattern, and ___L___ is the number of levels in the signaling.
+  - B (binary, L=2), T (tenary, L=3), and Q (quaternary, L=4).
+
+### 2B1Q (two binary, one quaternary)
+- 00:-3, 01:-1, 10:+3, 11:+1.
+- Signal rate (baud rate): __S = c x N x 1/r__
+  - __S = 1/2 x N x 1/2 = N/4__
+  - Signal rate is 2 times faster than NRZ-L
+- DSL (Digital Subscriber Line) use 2B1Q for Internet connection with telephone line. <br>
+![](fig/2B1Q.png)
+
+### 8B6T
+- Encode a pattern of 8 bits as a pattern of 6 signal elements, where the signal has three levels (ternary).
+- 2<sup>8</sup>=256 different data patterns and 3<sup>6</sup>=478 different signal patterns.
+  - There are 478-256=222 redundant signal elements that provide synchronization and error detection.
+- 8B6T use for Fast Ethernet (100BASE-T) <br>
+![](fig/8B6T.png)
+
+### 4D-PAM5 (Four-dimensional five-level pulse amplitude modulation)
+- 4D means that data is sent over four wires at the same time.
+- If we assume that the code is just one-dimensional, the four levels create something similar to 8B4Q.
+- Gigabit Ethernet use this technique to send 1-Gbps data over four copper cables that can handle 1Gbps/8 = 125Mbaud. <br>
+![](fig/4D-PAM5.png)
+
+### MLT-3 (Multiline Transmission, 3 level)
+- Three levels (+V, 0, and –V) and three transition rules to move the levels
+  - If the next bit is 0, there is no transition.
+  - If the next bit is 1 and the current level is not 0, the next level is 0.
+  - If the next bit is 1 and the current level is 0, the next level is the opposite of the last nonzero level.
+- The signal rate for MLT-3 is one-fourth the bit rate (N/4).
+- This makes MLT-3 a suitable choice when we need to send 100 Mbps on a copper wire that cannot support more than 32 MHz (frequencies above this level create electromagnetic emission). <br>
+![](MLT-3.png)
+
+## Summary of line coding schemes
+![](fig/summary-line-coding.png)
+
+## Block Coding
+- Use redundancy to ensure synchronization and to provide some kind of inherent error detecting.
+- In general, block coding changes a block of ___m___ bits into a block of ___n___ bits, where ___n___ is larger than ___m___.
+- Block coding is referred to as an mB/nB encoding technique.
+  - EX: 4B/5B encoding means a 4-bit code for a 5-bit group. <br>
+![](fig/block-coding.png)
