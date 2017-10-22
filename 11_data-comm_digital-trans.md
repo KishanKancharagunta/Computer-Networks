@@ -33,6 +33,21 @@ Please refer to textbook [chapter 4](https://github.com/cnchenpu/data-comm/blob/
 ![](fig/digi-sign-sync.png)
 
 ## Line Coding Schemes
+### Objects
+- __Signal Spectrum__
+  - Desire no high frequency components so less bandwidth is required.
+  - Desire no DC components to reduce bits error rate.
+  - Concentrate transmitted power in middle of bandwidth.
+- __Clocking and Synchronization__
+  - Transmitted signal can be used by receiver to synchronize bit timing.
+- __Error Detection__
+  - Receiver can detect some bit error from the received signal.
+- __Signal Interference__
+  - Provide good performance (few bit error) in presence of noise.
+- __Cost and Complexity__
+  - Desire smaller signaling rate to achieve a given data rate.
+
+### Subjects:
 - Unipolar - NRZ
 - Polar - NRZ, RZ, and biphase (Manchester, and differential Manchester)
 - Bipolar - AMI and pseudoternary
