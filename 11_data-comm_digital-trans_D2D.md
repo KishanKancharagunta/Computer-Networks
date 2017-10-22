@@ -139,3 +139,42 @@ Draw the digital signal codes: <br>
 - Block coding is referred to as an mB/nB encoding technique.
   - EX: 4B/5B encoding means a 4-bit code for a 5-bit group. <br>
 ![](fig/block-coding.png)
+
+### 4B/5B
+- 5-bit output that replaces the 4-bit input
+- No more than one leading zero (left bit) and no more than two trailing zeros (right bits).
+  - There are never more than three consecutive 0s.
+- Using block coding 4B/5B with NRZ-I line coding scheme
+  - NRZ-I has a good signal rate, but it has a synchronization problem. A long sequence of 0s can make the
+receiver clock lose synchronization.
+  - One solution is to change the bit stream, prior to encoding with NRZ-I, so that it does not have a long stream of 0s. <br>
+![](fig/4B5B-NRZI.png)
+
+### 8B/10B
+- a group of 8 bits of data is substituted by a 10-bit code
+- The 8B/10B block coding is actually a combination of 5B/6B and 3B/4B encoding
+  - The five most significant bits of a 10-bit block are fed into the 5B/6B encoder; the three least significant bits are fed into a 3B/4B encoder
+- better error detection capability than 4B/5B
+
+## Scrambling
+- Biphase schemes that are suitable for dedicated links between stations in a LAN are not suitable for long-distance communication because of their wide bandwidth requirement.
+- The combination of block coding and NRZ line coding is not suitable for long-distance encoding either, because of the DC component problem.
+- Bipolar AMI encoding, on the other hand, has a narrow bandwidth and does not create a DC component. However, a long sequence of 0s upsets the synchronization.
+- Scrambling is a way to avoid a long sequence of 0s in the original stream, then we can use bipolar AMI for long distances.
+  - if long sequence of same bit, replace with special sequence of bits
+
+### B8ZS (Bipolar with 8-zero substitution)
+- Eight consecutive zero-level voltages are replaced by the sequence 000VB0VB.
+  - The V in the sequence denotes violation; that is a nonzero voltage that breaks an AMI rule of encoding (opposite polarity from the previous).
+  - The B in the sequence denotes bipolar, which means a nonzero level voltage in accordance with the AMI rule. <br>
+![](fig/B8ZS.png)
+
+### HDB3 (High-Density Bipolar 3-zero)
+- Four consecutive zero-level voltages are replaced with a sequence of 000V or B00V.
+  - If the number of nonzero pulses after the last substitution is odd, the substitution pattern will be 000V, which makes the total number of nonzero pulses even.
+  - If the number of nonzero pulses after the last substitution is even, the substitution pattern will be B00V, which means makes the total number of nonzero pulses even.
+![](fig/HDB3.png)
+
+#### Encoding Rules for B8ZS and HDB3
+![](fig/B8ZS-HDB3.png)
+
