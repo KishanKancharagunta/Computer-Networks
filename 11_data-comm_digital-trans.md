@@ -69,6 +69,9 @@ Please refer to textbook [chapter 4](https://github.com/cnchenpu/data-comm/blob/
 - Pseudoternary: 1 bit is encoded as a zero voltage and the 0 bit is encoded as alternating positive and negative voltages. <br>
 ![](fig/bipolar.png)
 
+## Summary
+![](fig/line-coding.png)
+
 ## HW (due date: 10/23)
 Draw the digital signal codes: <br>
 ![](fig/digi-line-code.png)
