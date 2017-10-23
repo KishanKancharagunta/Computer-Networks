@@ -25,5 +25,6 @@ Please refer to textbook [chapter 4](https://github.com/cnchenpu/data-comm/blob/
 - Parallel transmission: send bits together
 - Serial transmission: send bits one-by-one
   - needs parallel/serial converter
-- Asynchronous transmission: use gap (start and end bits) between sending data
-- Synchronous transmission: no gaps between sending data
+- Asynchronous transmission: use gap (start and end bits) between sending data (frame)
+- Synchronous transmission: no gaps between sending data (frame)
+- Isochronous transmission: synchronize entire stream of bits, guarantee the data arrive at a fixed rate
