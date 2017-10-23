@@ -22,6 +22,6 @@ Please refer to textbook [chapter 7](https://github.com/cnchenpu/data-comm/blob/
 
 ![Electromagnetic spectrum](http://computing.dcu.ie/~humphrys/Notes/Networks/tanenbaum/2-11.jpg)
 
-## HW (due date: 10/23)
+## HW (due date: 10/30)
 Give a brief of LiFi and its application in your opinions.
 ![](https://upload.wikimedia.org/wikipedia/commons/9/9c/Lifi-image.jpg)
