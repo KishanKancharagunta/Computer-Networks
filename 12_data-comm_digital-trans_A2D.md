@@ -12,3 +12,18 @@ Please refer to textbook [chapter 4](https://github.com/cnchenpu/data-comm/blob/
 ![](fig/PCM-sampling.png) <br>
 - According to the __Nyquist theorem__, the sampling rate must be at least 2 times the highest frequency contained in the signal. <br>
 ![](fig/Nyquist-rate.png)
+
+### Quantization
+- approximate the value of the sample amplitude to the quantized values
+  - approximate creates qunatization error
+- normalized value = actual amplitude / delta
+  - delta = (V<sub>max</sub> - V<sub>min</sub>) / Levels <br>
+![](fig/PCM-quantization.png)
+  
+# Transmission Modes  
+![](fig/trans-mode.png)
+- Parallel transmission: send bits together
+- Serial transmission: send bits one-by-one
+  - needs parallel/serial converter
+- Asynchronous transmission: use gap (start and end bits) between sending data
+- Synchronous transmission: no gaps between sending data
