@@ -128,7 +128,7 @@ Draw the digital signal codes: <br>
   - If the next bit is 1 and the current level is 0, the next level is the opposite of the last nonzero level.
 - The signal rate for MLT-3 is one-fourth the bit rate (N/4).
 - This makes MLT-3 a suitable choice when we need to send 100 Mbps on a copper wire that cannot support more than 32 MHz (frequencies above this level create electromagnetic emission). <br>
-![](MLT-3.png)
+![](fig/MLT-3.png)
 
 ## Summary of line coding schemes
 ![](fig/summary-line-coding.png)
