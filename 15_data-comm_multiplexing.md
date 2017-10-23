@@ -21,3 +21,14 @@ Multiplexing is the set of techniques that allow the simultaneous transmission o
 ## Time-division multiplexing (TDM)
 - Each connection occupies a portion of time in the link. <br>
 ![](fig/TDM.png)
+
+# Spread Spectrum
+- In wireless communication we have some concerns that outweight bandwidth efficiency.
+- Spread specturm technique use to protect signal transmiting in air.
+- Frequency Hopping Spread Spectrum (FHSS)
+  - FHSS uses M different carrier frequencies that are modulated by the source signal. 
+  - At one moment, the signal modulates one carrier frequency; at the next moment, the signal modulates another carrier frequency.
+- Direct Sequence Spread Spectrum (DSSS) 
+  - In DSSS, we replace each data bit with n bits using a spreading code. 
+  - In other words, each bit is assigned a code of n bits, called chips. <br>
+  ![](fig/DSSS.png)
