@@ -18,4 +18,4 @@ Please refer to textbook [chapter 7](https://github.com/cnchenpu/data-comm/blob/
 
 ![](fig/BNC.png)
 
-[Electromagnetic spectrum](http://computing.dcu.ie/~humphrys/Notes/Networks/tanenbaum/2-11.jpg)
+![Electromagnetic spectrum](http://computing.dcu.ie/~humphrys/Notes/Networks/tanenbaum/2-11.jpg)
