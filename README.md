@@ -14,6 +14,7 @@
 - <a href="https://github.com/cnchenpu/data-comm/blob/master/16_data-comm_media.md#hw-due-date-1030"> Homework 4</a>, due date: 10/30.
 
 # Interesting:
+- <a href="https://www.techbang.com/posts/54565-usb-3-x-speed-difference-understand-different-coding-methods-the-effect-of"> USB 3.x速度大不同，看懂不同編碼方式對效能的影響 </a>
 - <a href="http://www.bbc.com/ukchina/trad/vert_fut/2016/05/160518_vert_fut_the-invisible-language-of-trains-boats-and-planes"> 支配全球物流運輸網的秘密信號 </a>
 - <a href="https://en.wikipedia.org/wiki/Sigfox"> Sigfox 低頻低速 IoT 網路 </a>
 - <a href="http://pansci.asia/archives/124494"> 1909年的諾貝爾物理奬——長距離無線電通訊 </a>
