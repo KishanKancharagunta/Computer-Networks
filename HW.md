@@ -1,3 +1,5 @@
+You can find homework list in <a href="https://github.com/cnchenpu/data-comm/blob/master/README.md#homework--project"> README.md </a>
+
 Note: <br>
 - A: On time and correct.
 - B: Delay or not correct.
@@ -10,3 +12,4 @@ Note: <br>
 |HW 02-2|10/2|A| |A|A|A|A|A|A|A|A|A| |A| | |
 |HW 02-3|10/2|A| |A|A|A| |A|A|A|A|A| |A| | |
 |HW 03|10/23| | | | | | | | | | | | | | | |
+|HW 04|10/30| | | | | | | | | | | | | | | |
