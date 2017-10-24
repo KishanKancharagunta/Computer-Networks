@@ -10,6 +10,8 @@
     - <a href="https://github.com/cnchenpu/data-comm/blob/master/06_data-comm_lzw-code.md#homework-due-date-102"> 3. LZW algorithm </a>
     
 - <a href="https://github.com/cnchenpu/data-comm/blob/master/05_data-comm_huffman-code.md#program-project-due-date-1016"> Project 1</a>, due date: 10/16.
+- <a href="https://github.com/cnchenpu/data-comm/blob/master/11_data-comm_digital-trans_D2D.md#hw-due-date-1023"> Homework 3</a>, due date: 10/23.
+- <a href="https://github.com/cnchenpu/data-comm/blob/master/16_data-comm_media.md#hw-due-date-1030"> Homework 4</a>, due date: 10/30.
 
 # Interesting:
 - <a href="http://www.bbc.com/ukchina/trad/vert_fut/2016/05/160518_vert_fut_the-invisible-language-of-trains-boats-and-planes"> 支配全球物流運輸網的秘密信號 </a>
