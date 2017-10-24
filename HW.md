@@ -3,7 +3,8 @@ You can find homework list in <a href="https://github.com/cnchenpu/data-comm/blo
 Note: <br>
 - A: On time and correct.
 - B: Delay or not correct.
-- &nbsp;&nbsp;: None.  
+- Comments for input, output and codes are needed for your programs.
+- Some projects have bonus points.
 
 |No.|Due date|1. 41040 3440|2. 41041 5722|3. 41031 4984|4. 41041 9093|5. 41042 8660|6. 41032 8501|7. 41032 8755|8. 41031 5257|9. 41032 8747|a. 41022 6238|b. 41022 6335|c. 41012 4575|d. 41052 8193|e. 41032 8462|f. 41032 8810|
 |----|----|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
