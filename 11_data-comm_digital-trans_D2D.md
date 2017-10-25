@@ -103,22 +103,53 @@ There are 4 possible combinations of encoding techniques:
 ![](fig/RZ.png)
 
 ### Biphase: Manchester and Differential Manchester
+- overcomes NRZ limitations
 - The idea of RZ (transition at the middle of the bit) and the idea of NRZ-L are combined into the Manchester scheme.
 - The duration of the bit is divided into two halves. The voltage remains at one level during the first half and moves to the other level in the second half.
 - The transition at the middle of the bit provides synchronization.
 - Differential Manchester, on the other hand, combines the ideas of RZ and NRZ-I.
-- There is always a transition at the middle of the bit, but the bit values are determined at the beginning of the bit. If the next bit is 0, there is a transition; if the next bit is 1, there is none. <br>
+- There is always a transition at the middle of the bit, but the bit values are determined at the beginning of the bit. If the next bit is 0, there is a transition; if the next bit is 1, there is none.
+- Used by IEEE 802.3 (Ethernet) <br>
 ![](fig/Manchester.png)
 
 ### Differential Encoding
 - Data represented by changes rather than levels
 - More reliable detection of transition in the presence of noise rather than to compare a value to a threshold level
 - In complex transmission layouts it is easy to loose sense of polarity of the signal
+- Used by IEEE 802.5 (token ring LAN)
 
+### Biphase Pros and Cons
+- Advantages
+  - Synchronization on mid bit transition (self clocking)
+  - No DC component
+  - Error detection
+    - Absence of expected transition can be used to detect errors
+- Disadvantages
+  - At least one transition per bit time and possibly two
+  - Maximum modulation rate is twice as that of NRZ
+  - Requires more bandwidth
+  
 ### Bipolar: AMI and pseudoternary
 - AMI: alternate mark (1) inversion, zero voltage is 0, 1 represented by alternating positive and negative voltages.
-- Pseudoternary: 1 bit is encoded as a zero voltage and the 0 bit is encoded as alternating positive and negative voltages. <br>
+  - Multilevel Binary (Uses more than two levels)
+  - Benefits with respect to NRZ
+    - No loss of sync if a long string of ones (zeros still a problem)
+    - No net DC component
+    - Lower bandwidth
+    - Easy error detection
+- Pseudoternary: 1 bit is encoded as a zero voltage and the 0 bit is encoded as alternating positive and negative voltages. 
+  - No advantage or disadvantage over bipolar-AMI
+    - No loss of sync if a long string of zeros (ones still a problem) <br>
 ![](fig/bipolar.png)
+
+### Disadvantages of Multilevel Binary
+- Not as efficient as NRZ
+  - Each signal element only represents one bit
+  - The line signal may take on one of 3 levels
+  - signal element, which could represent log<sub>2</sub>3 = 1.58 bits bears only one bit of information
+- Receiver must distinguish between three levels (+A, 0, -A) instead of two in NRZ
+- Requires approximately 3dB more signal power for same probability of bit error
+  - bit error for NRZ at a given SNR is much less than that for multilevel binary
 
 ## Summary
 ![](fig/line-coding.png)
