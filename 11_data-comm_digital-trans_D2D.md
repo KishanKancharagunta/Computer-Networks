@@ -104,19 +104,30 @@ There are 4 possible combinations of encoding techniques:
 
 ### Biphase: Manchester and Differential Manchester
 - overcomes NRZ limitations
+
+#### Manchester Encoding
 - The idea of RZ (transition at the middle of the bit) and the idea of NRZ-L are combined into the Manchester scheme.
 - The duration of the bit is divided into two halves. The voltage remains at one level during the first half and moves to the other level in the second half.
+  - Low to high represents binary 1
+  - High to low represents binary 0
 - The transition at the middle of the bit provides synchronization.
+  - Transition serves as clock and data
+- Used by IEEE 802.3 (Ethernet)
+
+#### Differential Manchester Encoding
 - Differential Manchester, on the other hand, combines the ideas of RZ and NRZ-I.
 - There is always a transition at the middle of the bit, but the bit values are determined at the beginning of the bit. If the next bit is 0, there is a transition; if the next bit is 1, there is none.
-- Used by IEEE 802.3 (Ethernet) <br>
-![](fig/Manchester.png)
+  - Midbit transition occurs always and is used for clocking only
+  - Transition at start of a bit period represents binary 0
+  - No transition at start of a bit period represents binary 1
+- Used by IEEE 802.5 (token ring LAN)
+
 
 ### Differential Encoding
 - Data represented by changes rather than levels
 - More reliable detection of transition in the presence of noise rather than to compare a value to a threshold level
-- In complex transmission layouts it is easy to loose sense of polarity of the signal
-- Used by IEEE 802.5 (token ring LAN)
+- In complex transmission layouts it is easy to loose sense of polarity of the signal <br>
+![](fig/Manchester.png)
 
 ### Biphase Pros and Cons
 - Advantages
