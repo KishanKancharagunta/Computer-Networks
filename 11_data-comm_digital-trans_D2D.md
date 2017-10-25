@@ -79,7 +79,15 @@ There are 4 possible combinations of encoding techniques:
 
 ### Unipolar NRZ (Non Return to Zero)
 - The signal does not return to zero at the middle of the bit.
-- positive voltage defines bit 1, zero voltage defines bit 0. <br>
+- Positive voltage defines bit 1, zero voltage defines bit 0. 
+- Pros
+  - Easy to engineer
+  - Make efficient use of bandwidth
+- Cons
+  - DC component
+  - Lack of synchronization capability
+- Used for magnetic recording
+- Not often used for signal transmission <br>
 ![](fig/NRZ.png)
 
 ### Polar NRZ-Level & NRZ-Invert
@@ -101,6 +109,11 @@ There are 4 possible combinations of encoding techniques:
 - Differential Manchester, on the other hand, combines the ideas of RZ and NRZ-I.
 - There is always a transition at the middle of the bit, but the bit values are determined at the beginning of the bit. If the next bit is 0, there is a transition; if the next bit is 1, there is none. <br>
 ![](fig/Manchester.png)
+
+### Differential Encoding
+- Data represented by changes rather than levels
+- More reliable detection of transition in the presence of noise rather than to compare a value to a threshold level
+- In complex transmission layouts it is easy to loose sense of polarity of the signal
 
 ### Bipolar: AMI and pseudoternary
 - AMI: alternate mark (1) inversion, zero voltage is 0, 1 represented by alternating positive and negative voltages.
