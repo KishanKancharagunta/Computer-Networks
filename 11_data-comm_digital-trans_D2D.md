@@ -1,6 +1,17 @@
 Please refer to textbook [chapter 4](https://github.com/cnchenpu/data-comm/blob/master/ppt/Ch4-Forouzan.ppt).
 
-# Digital to Digital Conversion
+# Signal Encoding Techniques
+There are 4 possible combinations of encoding techniques:
+- __Digital data, digital signal__
+- __Digital data, analog signal__
+- Analog data, digital signal
+- Analog data, analog signal
+
+# Digital to Digital Conversion (Digital data, digital signal)
+- Digital signal:
+  - Discrete, discontinuous voltage pulses
+  - Each pulse is a __signal element__
+  - Binary data encoded to signal elements
 
 ## Data vs. Signal Element
 - Data element: a bit that represent a piece of information.
@@ -28,6 +39,16 @@ Please refer to textbook [chapter 4](https://github.com/cnchenpu/data-comm/blob/
 - The incoming signal power is evaluated against the baseline to determine the value of the data element.
 - A long string of 0s or 1s could cause a drift in the baseline (__baseline wandering__) and make it difficult for the receiver to decode correctly.
 
+## Interpreting Signals
+- Receiver needs to know
+  - Timing of bits - when they start and end
+  - Signal levels
+- What factors determine how successful the receiver will be interpreting the incoming signal?
+  - Signal to noise ratio
+  - Data rate
+  - Bandwidth
+  - Encoding Scheme
+
 ### Synchronization
 - To correctly interpret the signals received from the sender, the receiver’s bit intervals must correspond exactly to the sender’s bit intervals. <br>
 ![](fig/digi-sign-sync.png)
@@ -49,7 +70,9 @@ Please refer to textbook [chapter 4](https://github.com/cnchenpu/data-comm/blob/
 
 ### Subjects:
 - Unipolar - NRZ
+  - All signal elements have same sign, i.e. all positive or all negative
 - Polar - NRZ, RZ, and biphase (Manchester, and differential Manchester)
+  - One logic state represented by positive voltage the other by negative voltage
 - Bipolar - AMI and pseudoternary
 - Multilevel - 2B/1Q, 8B/6T, and 4D-PAM5
 - Multitransition - MLT-3
