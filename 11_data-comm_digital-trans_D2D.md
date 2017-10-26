@@ -122,7 +122,6 @@ There are 4 possible combinations of encoding techniques:
   - No transition at start of a bit period represents binary 1
 - Used by IEEE 802.5 (token ring LAN)
 
-
 ### Differential Encoding
 - Data represented by changes rather than levels
 - More reliable detection of transition in the presence of noise rather than to compare a value to a threshold level
