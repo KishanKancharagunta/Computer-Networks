@@ -1,16 +1,20 @@
 Please refer to textbook [chapter 8](https://github.com/cnchenpu/data-comm/blob/master/ppt/Ch8-Forouzan.ppt).
 
 # Switching
-- circuit switching
-- packet switching
-  - virtual-circuit approach 
-  - datagram approach
-- message switching
+- Circuit Switching
+- Packet Switching
+  - Virtual-Circuit approach 
+  - Datagram approach
+- Message Switching
 
 ## Circuit Switching
 - PSTN (Public Switched Telephone Network)
-- connection oriented
-- Utility is not efficient but delay is minimal
+- Connection Oriented
+  - Path established before data transfer begins
+  - Channel capacity must be reserved between each pair of nodes in path
+- Utility is not efficient but delay is minimal 
+- Quality (data rate and delay) guaranteed for duration of connection <br>
+![](fig/PSTN.png)
 
 ## Packet Switching
 - VoIP
