@@ -17,5 +17,11 @@ Please refer to textbook [chapter 9](https://github.com/cnchenpu/data-comm/blob/
     - retransmit it by sender
 
 ## Link layer (MAC) Addressing
+- Unicase address
+  - A3:34:45:11:92:F1
+- Multicase address
+  - A2:34:45:11:92:F1
+- Broadcase address
+  - FF:FF:FF:FF:FF:FF
 - Ethernet (48 bits, 6 bytes) <br>
 ![](fig/mac-address.png)
