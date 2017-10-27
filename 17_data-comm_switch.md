@@ -18,9 +18,14 @@ Please refer to textbook [chapter 8](https://github.com/cnchenpu/data-comm/blob/
 
 ## Packet Switching
 - VoIP
-- connectionless
-- devide messages into packets before sending
-- assember packets into messages after received
+- Connectionless
+- Devide messages into packets before sending
+- Assember packets into messages after received
+- Each packet is treated independently of all others
+  - Packets belonging to the same message may:
+    - Take different paths across the network
+    - Arrive at destination out of order and may be lost
+- Packets need headers so switches know where to send them
 
 ### Datagram packet switching
 - Each packet (datagram) is treated as a separate entity.
@@ -34,3 +39,9 @@ Please refer to textbook [chapter 8](https://github.com/cnchenpu/data-comm/blob/
 ### Virtual Circuit switching
 - The path is determinted before data transfer begins.
   - All intermediate nodes have well defined routing table. 
+- Once setup, data is transferred as individual packets
+  - Take the same path across the network
+  - Arrive in-order at the destination, but may be lost
+  
+#### Event Timing for Circuit and Packet Switching
+![](fig/circuit-packet-switch-time.png)
