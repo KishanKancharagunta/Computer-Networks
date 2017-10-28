@@ -59,6 +59,10 @@ Please refer to textbook [chapter 9](https://github.com/cnchenpu/data-comm/blob/
   - a unitcast, do not need be a broadcast
 - Step 8: The source machine has destination's IP address for communication and will update its __ARP cache__ for further using.
 
+> Question:
+> Why not broadcase all frames, but use ARP to find the destination's IP first?
+
 # Reverse ARP (RARP)
 - Mapping MAC address to IP address.
 - For host machine don't know their IP address, RARP enables them to request their IP address from the router/switch's ARP cache.
+
