@@ -33,7 +33,8 @@ Please refer to textbook [chapter 9](https://github.com/cnchenpu/data-comm/blob/
 - Step 4. The destination device replies to the broadcast with a unicast frame addressed to PC 1.
 - Step 5. The switch enters the source MAC address of PC 2 and the port number of the switch port that received the frame into the address table. The destination address of the frame and its associated port is found in the MAC address table.
 - Step 6. The switch can now forward frames between source and destination devices without flooding. <br>
-![](fig/MAC-addressing.png)
+![](fig/MAC-addressing.png) <br>
+![](fig/MAC-addressing-ex.png)
 
 ## MAC address table
 - Switches use MAC addresses to direct network communications to the appropriate port toward the destination node.
