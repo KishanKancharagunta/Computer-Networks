@@ -47,3 +47,18 @@ Please refer to textbook [chapter 9](https://github.com/cnchenpu/data-comm/blob/
   - Typically, switch ports used to interconnect two switches have multiple MAC addresses recorded in the MAC address table.
 
 # Address Resolution Protocol (ARP)
+- Mapping and IP address to a MAC address.
+- Step 1: When a source device want to communicate with another device, source device checks its __ARP cache__ to find if it already has a resolved MAC Address of the destination device. If it is there, it will use that MAC Address for communication.
+  - __arp -a__
+- Step 2: If ARP resolution is not there in local cache, the source machine will generate an __ARP request__ message. The broadcase message has the destination device's IP address (target IP address).
+- Step 3: The source broadcast the __ARP request__ message to the local network. 
+- Step 4: Every device on the LAN receives the boradcase message and compares the target IP address and own IP address.
+- Step 5: Only the device which has the target IP address will reply the request, other device will drop the request.
+- Step 6: The destination device will update its __ARP cache__, since it need to contact the sender machine soon.
+- Step 7: Destination device send the __ARP reply__ message. 
+  - a unitcast, do not need be a broadcast
+- Step 8: The source machine has destination's IP address for communication and will update its __ARP cache__ for further using.
+
+# Reverse ARP (RARP)
+- Mapping MAC address to IP address.
+- For host machine don't know their IP address, RARP enables them to request their IP address from the router/switch's ARP cache.
