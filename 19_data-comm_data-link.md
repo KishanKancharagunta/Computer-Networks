@@ -22,7 +22,7 @@ Please refer to textbook [chapter 9](https://github.com/cnchenpu/data-comm/blob/
 - Unicase address
   - A3:34:45:11:92:F1
 - Multicase address
-  - A__2__:34:45:11:92:F1
+  - A2:34:45:11:92:F1
 - Broadcase address
   - FF:FF:FF:FF:FF:FF
 
@@ -35,7 +35,7 @@ Please refer to textbook [chapter 9](https://github.com/cnchenpu/data-comm/blob/
 - Step 6. The switch can now forward frames between source and destination devices without flooding. <br>
 ![](fig/MAC-addressing.png)
 
-### MAC address table
+## MAC address table
 - Switches use MAC addresses to direct network communications to the appropriate port toward the destination node.
   - For a switch to know which port to use to transmit a unicast frame, it must first learn which nodes exist on each of its ports.
   - A switch determines how to handle incoming data frames by using its MAC address table. 
@@ -46,3 +46,4 @@ Please refer to textbook [chapter 9](https://github.com/cnchenpu/data-comm/blob/
   - In networks with multiple interconnected switches, the MAC address tables record multiple MAC addresses for the ports connecting the switches which reflect the node's beyond. 
   - Typically, switch ports used to interconnect two switches have multiple MAC addresses recorded in the MAC address table.
 
+# Address Resolution Protocol (ARP)
