@@ -41,7 +41,7 @@ As following code table
 EX: 
 As following code table, sender sends __01011__ (__data-word: 01__) but receiver receives __01001__.
 - Receiver finds the code-word is not in the code table, that means an error has occurred.
-  - Assume there is only 1 bit corrupted.
+  - Assume there is only __1 bit corrupted__.
   - Compare the received code-word with the code-words in the table.
   - Then find the code-word __01011__ in table has 1 bit that differ from the received code-word __01001__.
   - So correct the received code-word to __01001__, and consult the data-word is __01__.
@@ -94,5 +94,11 @@ As following code table, sender sends __01011__ (__data-word: 01__) but receiver
 
   - The minimal Hamming distance d<sub>min</sub> = 3.
     - Can only detect 2 error bit.
+    - Can only correct 1 error bit.
 
-- To guarantee the detection of up to s errors in all cases, the minimum Hamming distance in a block code must be __d<sub>min</sub> = s + 1__.
+- To guarantee the __detection__ of up to __s errors__ in all cases, the __minimum Hamming distance__ in a block code must be __d<sub>min</sub> = s + 1__.
+- To guarantee the __correction__ of up to __t errors__ in all cases, the __minimum Hamming distance__ in a block code must be __d<sub>min</sub> = 2t + 1__.
+
+## Linear Block Codes
+
+
