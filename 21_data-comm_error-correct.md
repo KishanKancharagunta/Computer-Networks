@@ -68,5 +68,26 @@ As following code table, sender sends __01011__ (__data-word: 01__) but receiver
   
 ### Minimum Hamming Distance for Error Detection
 
+|Code-word|Code-word|Hamming Distance|
+|:----:|:----:|:----:|
+|000|011|2|
+|000|101|2|
+|000|110|2|
+|011|101|2|
+|011|110|2| 
+|101|110|2| 
 
-  
+The minimal Hamming distance d<sub>min</sub> = 2.
+
+|Code-word|Code-word|Hamming Distance|
+|:----:|:----:|:----:|
+|00000|01011|3|
+|00000|10101|3|
+|00000|11110|4|
+|01011|10101|4|
+|01011|11110|3| 
+|10101|11110|3| 
+
+The minimal Hamming distance d<sub>min</sub> = 3.
+
+- To guarantee the detection of up to s errors in all cases, the minimum Hamming distance in a block code must be __d<sub>min</sub> = s + 1__.
