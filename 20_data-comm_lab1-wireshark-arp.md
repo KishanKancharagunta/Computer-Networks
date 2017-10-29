@@ -6,6 +6,9 @@ Download: <a href="https://www.wireshark.org/download.html">![Wireshark](https:/
 An illustration of capture an incomming frame: <br>
 ![](fig/packet-sniffing.png)
 
+Packet sniffer structure: <br>
+![](fig/packet-sniffing-howto.png)
+
 ## ipconfig & arp
 ![](fig/ipconfig.png)
 
