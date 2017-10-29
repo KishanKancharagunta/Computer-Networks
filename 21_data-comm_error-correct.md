@@ -26,8 +26,8 @@ Please refer to textbook [chapter 10](https://github.com/cnchenpu/data-comm/blob
 An error-detecting code can detect only the types of errors for which it is designed; other types of errors may remain undetected.
 
 ## Error Correction
-EX:
-|Data-word|Code-word|
+EX: <br>
+|Dataword|Codeword|
 |:---:|:---:|
 |00|00000|
 |01|01011|
