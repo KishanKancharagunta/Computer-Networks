@@ -1,7 +1,9 @@
 Please refer to textbook [chapter 10](https://github.com/cnchenpu/data-comm/blob/master/ppt/Ch10-Forouzan.ppt)
 
 # Data-Link Layer Error Detection and Correction
-- Error transmissions are caused by __Interference__, type of errors: <br>
+- Error transmissions are caused by __Interference__, type of errors:
+  - single bit error
+  - burst error <br>
 ![](fig/bit-error.png)
 - To detect or correct errors, we need to send extra (__Redundant__) bits with data.
 - __Error detection__
