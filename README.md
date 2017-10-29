@@ -12,6 +12,7 @@
 - <a href="https://github.com/cnchenpu/data-comm/blob/master/05_data-comm_huffman-code.md#program-project-due-date-1016"> Project 1</a>, due date: 10/16.
 - <a href="https://github.com/cnchenpu/data-comm/blob/master/11_data-comm_digital-trans_D2D.md#hw-due-date-1023"> Homework 3</a>, due date: 10/23.
 - <a href="https://github.com/cnchenpu/data-comm/blob/master/16_data-comm_media.md#hw-due-date-1030"> Homework 4</a>, due date: 10/30.
+- <a href="https://github.com/cnchenpu/data-comm/blob/master/20_data-comm_lab1-wireshark-arp.md#hw-use-wireshare-to-analyze-the-arp-protocol-due-116"> Homework 5</a>, due date: 11/6.
 
 # Interesting:
 - <a href="https://www.techbang.com/posts/54565-usb-3-x-speed-difference-understand-different-coding-methods-the-effect-of"> USB 3.x速度大不同，看懂不同編碼方式對效能的影響 </a>
