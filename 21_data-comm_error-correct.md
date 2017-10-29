@@ -53,3 +53,20 @@ As following code table, sender sends __01011__ (__data-word: 01__) but receiver
 |10|10101|
 |11|11110|
 
+## Hamming Distance
+- The Hamming distance between two words (of the same size) is the number of differences between the corresponding bits.
+- To measure the difference between two strings is the central concept in coding for __error control__.
+  - If the Hamming Distance between the sent and the received codeword is not zero, the codeword has been corrupted during transmission.
+- The Hamming distance can easily be found if we apply the ___XOR___ (&oplus;) operation on the two words and count the number of 1s in the result.  
+   
+  |A|B|XOR|
+  |:---:|:---:|:---:|
+  |0|0|0|
+  |0|1|1|
+  |1|0|1|
+  |1|1|0|
+  
+### Minimum Hamming Distance for Error Detection
+
+
+  
