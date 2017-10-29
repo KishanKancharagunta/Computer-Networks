@@ -67,6 +67,7 @@ As following code table, sender sends __01011__ (__data-word: 01__) but receiver
   |1|1|0|
   
 ### Minimum Hamming Distance for Error Detection
+- EX.1
 
 |Code-word|Code-word|Hamming Distance|
 |:----:|:----:|:----:|
@@ -77,7 +78,10 @@ As following code table, sender sends __01011__ (__data-word: 01__) but receiver
 |011|110|2| 
 |101|110|2| 
 
-The minimal Hamming distance d<sub>min</sub> = 2.
+  - The minimal Hamming distance d<sub>min</sub> = 2.
+    - Cna only detect 1 error bit.
+
+- EX.2 
 
 |Code-word|Code-word|Hamming Distance|
 |:----:|:----:|:----:|
@@ -88,6 +92,7 @@ The minimal Hamming distance d<sub>min</sub> = 2.
 |01011|11110|3| 
 |10101|11110|3| 
 
-The minimal Hamming distance d<sub>min</sub> = 3.
+  - The minimal Hamming distance d<sub>min</sub> = 3.
+    - Can only detect 2 error bit.
 
 - To guarantee the detection of up to s errors in all cases, the minimum Hamming distance in a block code must be __d<sub>min</sub> = s + 1__.
