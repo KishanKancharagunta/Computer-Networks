@@ -22,7 +22,15 @@ Please refer to textbook [chapter 10](https://github.com/cnchenpu/data-comm/blob
   > 2<sup>5</sup> = 32 code-words <br>
 
 ## Error Detection
-![](fig/error-detection-model.png)
+![](fig/error-detection-model.png) <br>
 An error-detecting code can detect only the types of errors for which it is designed; other types of errors may remain undetected.
 
 ## Error Correction
+EX:
+|Data-word|Code-word|
+|:---:|:---:|
+|00|00000|
+|01|01011|
+|10|10101|
+|11|11110|
+
