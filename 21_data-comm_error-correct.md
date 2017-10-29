@@ -23,12 +23,31 @@ Please refer to textbook [chapter 10](https://github.com/cnchenpu/data-comm/blob
 
 ## Error Detection
 ![](fig/error-detection-model.png) <br>
-An error-detecting code can detect only the types of errors for which it is designed; other types of errors may remain undetected.
+EX:
+As following code table
+- If received __111__, there there is no valid code-word matched, so discard it.
+- If received __000__, this is a vaild code-word in code table, the data-word is __00__.
+- If sender sent __000__ but receiver received __011__ (2 bits corrupted), then it will not be detected and treat as data-word __01__.
+- __An error-detecting code can detect only the types of errors for which it is designed; other types of errors may remain undetected.__
+
+|Data-word|Code-word|
+|:----:|:----:|
+|00|000|
+|01|011|
+|10|101|
+|11|110|
 
 ## Error Correction
-EX: <br>
-|Dataword|Codeword|
-|:---:|:---:|
+EX: 
+As following code table, sender sends __01011__ (__data-word: 01__) but receiver receives __01001__.
+- Receiver finds the code-word is not in the code table, that means an error has occurred.
+  - Assume there is only 1 bit corrupted.
+  - Compare the received code-word with the code-words in the table.
+  - Then find the code-word __01011__ in table has 1 bit that differ from the received code-word __01001__.
+  - So correct the received code-word to __01001__, and consult the data-word is __01__.
+
+|Data-word|Code-word|
+|:----:|:----:|
 |00|00000|
 |01|01011|
 |10|10101|
