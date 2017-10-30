@@ -123,3 +123,11 @@ As following code table, sender sends __01011__ (__data-word: 01__) but receiver
 
 ![](fig/simple-parity-check.png)
 
+- A simple parity-check code can detect an odd number of errors.
+
+## Two-Dimensional Parity-Check
+![](fig/2D-parity-check.png)
+
+## Hamming code
+![](fig/Hamming-code.png)
+
