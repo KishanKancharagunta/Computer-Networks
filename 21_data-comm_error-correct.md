@@ -144,3 +144,14 @@ As following code table, sender sends __01011__ (__data-word: 01__) but receiver
 
 ![](fig/Hamming-code.png)
 
+- r0 = a2 + a3 + a0  modulo 2
+- r1 = a3 + a2 + a1  modulo 2
+- r2 = a1 + a0 + a3  modulo 2
+
+- s0 = b2 + b1 + b0 + q0 modulo 2
+- s1 = b3 + b2 + b1 + q1 modulo 2
+- s2 = b1 + b0 + b3 + q2 modulo 2
+
+|Syndrome|000|001|010|011|100|101|110|111|
+|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
+|Error|None|q0|q1|b2|q2|b0|b3|b1|
