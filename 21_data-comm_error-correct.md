@@ -102,5 +102,24 @@ As following code table, sender sends __01011__ (__data-word: 01__) but receiver
 - To guarantee the __correction__ of up to __t errors__ in all cases, the __minimum Hamming distance__ in a block code must be __d<sub>min</sub> = 2t + 1__.
 
 ## Linear Block Codes
+- A linear block code is a code in which the exclusive OR (XOR) of two valid codewords creates another valid codeword.
+> Above two examples are linear block code.
 
+## Simple Parity Check
+- EX: C(5,4)
+
+|Data-word|Code-word|Data-word|Code-word|
+|:----:|:----:|:----:|:----:|
+|0000|00000|1000|10001|
+|0001|00011|1001|10010|
+|0010|00100|1010|10100|
+|0011|00110|1011|10111|
+|0100|01001|1100|11000|
+|0101|01010|1101|11011|
+|0110|01100|1110|11101|
+|0111|01111|1111|11110|
+
+- A simple parity-check code is a single-bit error-detecting code in which n = k + 1 with d<sub>min</sub> = 2
+
+![](fig/simple-parity-check.png)
 
