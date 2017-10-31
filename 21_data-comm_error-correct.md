@@ -123,6 +123,9 @@ As following code table, sender sends __01011__ (__data-word: 01__) but receiver
 
 ![](fig/simple-parity-check.png)
 
+- r0 = a3 + a2 + a1 + a0 (modulo-2)
+- s0 = b3 + b2 + b1 + b0 + q0 (modulo-2)
+
 - A simple parity-check code can detect an odd number of errors.
 
 ## Two-Dimensional Parity-Check
