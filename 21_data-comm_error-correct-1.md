@@ -226,5 +226,5 @@ EX: bit position 10 is wrong __(0 -> 1)__
   - 2 + 8 = 10
   - error at bit posisiont 10 __(1 -> 0)__
   
-### HW: Hamming code (due date: 11/13)
+# HW: Hamming code (due date: 11/13)
 Encode 11101010 with Hamming code, and give an example of detect and correct error.
