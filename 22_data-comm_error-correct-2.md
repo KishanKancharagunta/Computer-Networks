@@ -22,10 +22,10 @@ EX: If 1011000 is a codeword and we cyclically left-shift, then 0110001 is also 
 
 ![](fig/CRC.png)
 
-### CRC encoding
+- CRC encoding
 ![](fig/CRC-encode.png)
-### CRC decoding
+- CRC decoding
 ![](fig/CRC-decode-1.png)
-### CRC detect error
+- CRC detect error
 ![](fig/CRC-decode-2.png)
 
