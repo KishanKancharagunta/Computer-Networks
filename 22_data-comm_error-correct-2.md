@@ -1,6 +1,9 @@
 Please refer to textbook [chapter 10](https://github.com/cnchenpu/data-comm/blob/master/ppt/Ch10-Forouzan.ppt).
 
-# Data-Link Layer Cyclic codes
+# Data-Link Layer - Cyclic Codes
+The codeword is cyclically shifted (rotated) to become another codeword. <br>
+EX: If 1011000 is a codeword and we cyclically left-shift, then 0110001 is also a codeword.
+
 ## CRC (cyclic redundancy check)
 - EX: A CRC code with C(7,4)
 
@@ -15,5 +18,13 @@ Please refer to textbook [chapter 10](https://github.com/cnchenpu/data-comm/blob
 |0110|0110 <b>001</b>|1110|1110 <b>100</b>|
 |0111|0111 <b>010</b>|1111|1111 <b>111</b>|
 
+- EX: 0010110 -> 0101100 -> 1011000 -> 0110001 ...
+
 ![](fig/CRC.png)
+
+![](fig/CRC-encode.png)
+
+![](fig/CRC-decode-1.png)
+
+![](fig/CRC-decode-2.png)
 
