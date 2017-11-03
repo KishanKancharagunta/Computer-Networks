@@ -23,9 +23,15 @@ EX: If 1011000 is a codeword and we cyclically left-shift, then 0110001 is also 
 ![](fig/CRC.png)
 
 - CRC encoding
+  - Multiply: AND
+  - Substract: XOR <br>
 ![](fig/CRC-encode.png)
 - CRC decoding
 ![](fig/CRC-decode-1.png)
 - CRC detect error
 ![](fig/CRC-decode-2.png)
 
+# HW 6-2: CRC coding (due date: 11/6)
+- Encode 11010011101100 in CRC code, the divisor is 1011.
+- Decode the CRC code of above data-code.
+- Give an example of detect an error.
