@@ -26,9 +26,11 @@ EX: If 1011000 is a codeword and we cyclically left-shift, then 0110001 is also 
   - Multiply: AND
   - Substract: XOR <br>
 ![](fig/CRC-encode.png)
-- CRC decoding
+
+- CRC decoding <br>
 ![](fig/CRC-decode-1.png)
-- CRC detect error
+
+- CRC detect error <br>
 ![](fig/CRC-decode-2.png)
 
 # HW 6-2: CRC coding (due date: 11/6)
