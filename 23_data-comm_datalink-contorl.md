@@ -122,5 +122,28 @@ Last time we discussed error detection and correction in data link layer, then w
 - Receiver <br>
 ![](fig/algo-receiver-3.png)
 
+```
+01  Rn = 0;                 // Frame 0 expected to arrive first
+02  while(true)
+03  {
+04    WaitForEvent();       // Sleep until an event occurs
+05    if(Event(ArrivalNotification))      // Data frame arrives
+06    {
+07      ReceiveFrame();
+08      if(corrupted(frame));
+09        sleep();
+10      if(seqNo == Rn)
+11      {
+12        ExtractData();
+13        DeliverData();      // Deliver data
+14        Rn = Rn + 1;
+15      }
+16      SendFrame(Rn);        // Send an ACK
+17    }
+18  }
+```
+> EX:
+>
+
 ![](fig/flow-3.png)
 
