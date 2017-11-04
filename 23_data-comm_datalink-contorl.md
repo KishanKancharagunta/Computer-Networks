@@ -6,6 +6,8 @@ Last time we discussed error detection and correction in data link layer, then w
 - Flow Control
 - Error Control
 
+![](fig/ideal-link-control.png)
+
 ## Framing (in Data Link Layer)
 - Encapsulate datagram from network layer into frame.
 - Pack bits from physical layer into frame.
@@ -42,5 +44,26 @@ Last time we discussed error detection and correction in data link layer, then w
 
 ![](fig/bit-stuffing.png)
 
+## Flow and Error Contorl (in Data Link Layer)
+- Flow control refers to a set of procedures used to restrict  the amount of data that the sender can send  before waiting for acknowledgment.
+- Error control in the data link layer is based on automatic repeat request, which is the retransmission of data.
 
+### (Ideal) The design of the simplest protocol with no flow or error control 
+- Sender <br>
+![](fig/algo-sender-1.png)
 
+- Receiver <br>
+![](fig/algo-receiver-1.png)
+
+![](fig/flow-1.png)
+
+### Stop-and-Wait
+![](fig/stop-and-wait.png)
+
+- Sender <br>
+![](fig/algo-sender-2.png)
+
+- Receiver <br>
+![](fig/algo-receiver-2.png)
+
+![](fig/flow-2.png)
