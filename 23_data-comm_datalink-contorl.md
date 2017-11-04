@@ -83,6 +83,42 @@ Last time we discussed error detection and correction in data link layer, then w
 - Sender <br>
 ![](fig/algo-sender-3.png)
 
+```
+01  Sn = 0;               // Frame 0 should be sent first
+02  canSend = true;       // Allow the first request to go
+03  while(true)           // Repeat forever
+04  {
+05    WaitForEvent();     // Sleep until an event occurs
+06    if(Event(RequestToSend) AND canSend)
+07    {
+08      GetData();
+09      MakeFrame(Sn);      // The seqNo is Sn
+10      StoreFrame(Sn);     // Keep copy
+11      SendFrame(Sn);
+12      StartTimer();
+13      Sn = Sn + 1;
+14      canSend = false;
+15    }
+16    WaitForEvent();         // Sleep
+17    if(Event(ArrivalNotification)         // An ACK has arriver
+18    {
+19      ReceiveFrame(ackNo);                // Receive the ACK frame
+20      if(not corrupted AND ackNo == Sn)   // Valid ACK
+21      {
+22        Stoptimer();
+23        PurgeFrame(Sn-1);                 // Copy is not needed
+24        canSend = true;
+25      }
+26    }
+27 
+28    if(Event(TimeOut)                     // The timer expired
+29    {
+30      StartTimer();
+31      ResendFrame(Sn-1);
+32    }
+33  }
+```
+
 - Receiver <br>
 ![](fig/algo-receiver-3.png)
 
