@@ -143,7 +143,10 @@ Last time we discussed error detection and correction in data link layer, then w
 18  }
 ```
 > EX:
->
+> Frame 0 is sent and acknowledged. 
+> Frame 1 is lost and resent after the time-out. The resent frame 1 is acknowledged and the timer stops. 
+> Frame 0 is sent and acknowledged, but the acknowledgment is lost. 
+> The sender has no idea if the frame or the acknowledgment is lost, so after the time-out, it resends frame 0, which is acknowledged.
 
 ![](fig/flow-3.png)
 
