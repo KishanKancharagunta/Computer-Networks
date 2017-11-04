@@ -48,7 +48,8 @@ Last time we discussed error detection and correction in data link layer, then w
 - Flow control refers to a set of procedures used to restrict  the amount of data that the sender can send  before waiting for acknowledgment.
 - Error control in the data link layer is based on automatic repeat request, which is the retransmission of data.
 
-### (Ideal) The design of the simplest protocol with no flow or error control 
+### The design of the simplest protocol with no flow or error control 
+- Ideal noiseless channel.
 - Sender <br>
 ![](fig/algo-sender-1.png)
 
@@ -58,6 +59,8 @@ Last time we discussed error detection and correction in data link layer, then w
 ![](fig/flow-1.png)
 
 ### Stop-and-Wait
+- Add __flow control__ in ideal simple protocol.
+
 ![](fig/stop-and-wait.png)
 
 - Sender <br>
@@ -67,3 +70,21 @@ Last time we discussed error detection and correction in data link layer, then w
 ![](fig/algo-receiver-2.png)
 
 ![](fig/flow-2.png)
+
+### Stop-and-Wait ARQ (Automatic Repeat Request)
+- __Flow control__ in noise channel.
+- Error correction in Stop-and-Wait ARQ is done by keeping a copy of the sent frame and retransmitting of the frame when the timer expires.
+- In Stop-and-Wait ARQ, we use sequence numbers to number the frames. The sequence numbers are based on modulo-2 arithmetic.
+- In Stop-and-Wait ARQ, the acknowledgment number always announces in modulo-2 arithmetic the sequence number of the next frame expected.
+
+
+![](fig/stop-and-wait-arq.png)
+
+- Sender <br>
+![](fig/algo-sender-3.png)
+
+- Receiver <br>
+![](fig/algo-receiver-3.png)
+
+![](fig/flow-3.png)
+
