@@ -51,3 +51,6 @@ Vulnerable time is 2 times of frame transmission time ___T<sub>fr</sub>___. <br>
 ![](fig/ALOHA-slot.png) <br>
 ![](fig/ALOHA-slot-Tfr.png)
 
+## Carrire Sense Multiple Access (CSMA)
+- Sense before transmission.
+- Reduce collision, reduce retransmit, increase performance.
