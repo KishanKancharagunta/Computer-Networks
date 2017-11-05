@@ -124,7 +124,7 @@ Negotiation to determine which station can transmit.
 ## Channel Division
 Can also refers to [chapter 6](https://github.com/cnchenpu/data-comm/blob/master/15_data-comm_multiplexing.md)
 - FDMA
-  - In FDMA, the available bandwidth of the common channel is divided into bands that are separated by guard bands.
+  - In FDMA, the available bandwidth of the common channel is divided into bands that are separated by guard bands.
 - TDMA
   - In TDMA, the bandwidth is just one channel that is timeshared between different stations.
 - CDMA
