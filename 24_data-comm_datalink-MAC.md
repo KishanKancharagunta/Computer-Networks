@@ -48,7 +48,8 @@ Vulnerable time is 2 times of frame transmission time ___T<sub>fr</sub>___. <br>
 - Stations can only send at the start time of the slot.
 - Collision still could happen but, reduce the vulnerable time a half.
 
-![](fig/ALOHA-slot.png) <br>
+![](fig/ALOHA-slot.png) 
+
 ![](fig/ALOHA-slot-Tfr.png)
 
 ## Carrire Sense Multiple Access (CSMA)
