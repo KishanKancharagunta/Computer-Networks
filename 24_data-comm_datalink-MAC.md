@@ -33,14 +33,15 @@ Please refer to textbook [chapter 12](https://github.com/cnchenpu/data-comm/blob
 ![](fig/ALOHA-protocol.png)
 
 #### Why need to wait for 2 times of frame transmission time
-Vulnerable time is 2 times of frame transmission time ___T<sub>fr</sub>___. <br>
+Vulnerable time is 2 times of frame transmission time ___T<sub>fr</sub>___ <br>
+
 ![](fig/ALOHA-Tfr.png)
 
 > EX: <br>
 > A pure ALOHA network transmits 200-bit frames on a shared channel of 200 kbps. <br>
 > What is the requirement to make this frame collision-free? <br>
 > <br>
-> Average frame transmission time T<sub>fr</sub> is 200 bits/200 kbps or 1 ms. The vulnerable time is  2 × 1 ms = 2 ms. < br>
+> Average frame transmission time T<sub>fr</sub> is 200 bits/200 kbps or 1 ms. The vulnerable time is  2 × 1 ms = 2 ms. <br>
 > This means no station should send later than 1 ms before this station starts transmission and no station should start sending during the one 1-ms period that this station is sending.
 
 ### Slotted ALOHA
@@ -93,10 +94,28 @@ Vulnerable time is 2 times of frame transmission time ___T<sub>fr</sub>___. <br>
   - EX: The frame needs ___T<sub>p</sub>___ to arrive the receiver, so does the collision signal, so station should keep transmission in ___2T<sub>p</sub>___ .
 
 > EX: <br>
-> In the 10 Mbps CSMA/CD Ethernet the most transmission time is 25.6us, what is the minimum frame size? <br>
+> In the 10Mbps CSMA/CD Ethernet the most transmission time is 25.6us, what is the minimum frame size? <br>
 > <br>
 > The frame transmission time ___T<sub>fr</sub>_ = 2 x _T<sub>p</sub>_ = 51.2us__ <br>
->
+> That means the station need 51.2us to detect collision. <br>
+> The minimum frame size = 10Mbps x 51.2us = 512 bits = 64 byte.
 
+### CSMA/CD protocol
+- similar to ALOHA
+- Use __Persistence Methods__ to sense the medium
+- Transmit and detect collision at the same time
+  - ALOHA send a complete frame then wait the ACK
+- Send __jamming signal__ to notify not find collision yet
 
 ![](fig/CSMA-CD.png)
+
+## Controlles Access
+Negotiation to determine which station can transmit.
+- Reservation
+- Polling
+- Token Passing
+
+## Channel Division
+- FDMA
+- TDMA
+- CDMA
