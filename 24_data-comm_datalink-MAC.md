@@ -109,6 +109,27 @@ Vulnerable time is 2 times of frame transmission time ___T<sub>fr</sub>___ <br>
 
 ![](fig/CSMA-CD.png)
 
+## Carrire Sense Multiple Access with Collision Avoidance (CSMA/CA)
+- Wireless LAN is hard to detect collision
+- Collision Avoidance strategy:
+  - Interframe Space (IFS)
+    - Even find the medium is available, still wait for an __interframe space__ time
+    - High priority station has shorter IFS
+  - Contention Window
+    - choose a random number of slot of wait time
+    - every station has different slot of wait time
+  
+![](fig/CSMA-CA-timing.png)
+
+1. keep sense until medium is available
+2. wait for a inter-frame space (IFS) time after find medium is available
+3. sender send a control frame - __RTS (request to send)__
+4. after receive RTS and wait for a short inter-frame space (IFS) time, destition station send a control frame - __CTS (clear to send)__
+5. wait for a short inter-frame space (IFS) time sender send the data
+6. wait for a short inter-frame space (IFS) time, receiver confirm (reply ACK) the sender
+
+![](fig/CSMA-CA.png)
+
 ## Controlles Access
 Negotiation to determine which station can transmit.
 - Reservation
