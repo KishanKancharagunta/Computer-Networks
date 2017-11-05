@@ -18,3 +18,17 @@ Please refer to textbook [chapter 11](https://github.com/cnchenpu/data-comm/blob
 ### ALOHA
 - __Multiple Access__ - send as need
 - Whenever a terminal has data, it transmits. Sender finds out whether transmission was successful or experienced a collision by listening to the broadcast from the destination station. Sender retransmits after some random time if there is a collision.
+
+![](fig/ALOHA.png)
+
+#### Pure ALOHA protocol
+```
+1. Transmit a frame.
+2. IF ACK arrived
+3.    done.
+4. ELSE
+5.    Wait a random time and GOTO 1
+```
+
+![](fig/ALOHA-protocol.png)
+
