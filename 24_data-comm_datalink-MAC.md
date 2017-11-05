@@ -112,8 +112,14 @@ Vulnerable time is 2 times of frame transmission time ___T<sub>fr</sub>___ <br>
 ## Controlles Access
 Negotiation to determine which station can transmit.
 - Reservation
+  - each station have to reserve the time slot <br>
+  ![](fig/reservation.png)
 - Polling
+  - every data exchange have to pass through the primary station <br>
+  ![](fig/polling.png)
 - Token Passing
+  - token ring
+  ![](fig/token-passing.png)
 
 ## Channel Division
 - FDMA
