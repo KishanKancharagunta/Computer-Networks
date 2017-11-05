@@ -87,8 +87,8 @@ Vulnerable time is 2 times of frame transmission time ___T<sub>fr</sub>___. <br>
 ![](fig/CSMA-CD-ex.png)
 - Sender have to detect the collision before transmit its last bit in the frame.
 - Since after transmitted the complete frame, station will not keep the frame data and will not sense the medium.
-- So the frame transmission time ___T<sub>fr</sub>___ should be twice of the maximum propagation time ___T<sub>p</sub>___.
-  - EX: The frame needs ___T<sub>p</sub>___ to arrive the receiver, so does the collision signal, so station should keep transmission in ___2T<sub>p</sub>___.
+- So the frame transmission time ___T<sub>fr</sub>___ should be twice of the maximum propagation time ___T<sub>p</sub>___ .
+  - EX: The frame needs ___T<sub>p</sub>___ to arrive the receiver, so does the collision signal, so station should keep transmission in ___2T<sub>p</sub>___ .
 
 ### The minimum frame size in CSMA/CD
 
