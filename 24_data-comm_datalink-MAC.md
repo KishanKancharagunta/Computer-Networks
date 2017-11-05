@@ -72,17 +72,17 @@ Vulnerable time is 2 times of frame transmission time ___T<sub>fr</sub>___. <br>
     - wait for next time slot to sence the medium in proability 1 - p
     
 ## Carrire Sense Multiple Access with Collision Detection (CSMA/CD)
-```
-EX:
-1. A sent frame at t<sub>1</sub> from A to D
-2. C sent frame at t<sub>2</sub> (not detect A's first bit of frame yet) in both sides
-3. Collision happened after t<sub>2</sub>
-4. C detect collision at t<sub>3</sub>
-5. A detect collision at t<sub>4</sub>
 
-- A's transmission time is t<sub>4</sub> - t<sub>1</sub>
-- C's transmission time is t<sub>3</sub> - t<sub>2</sub>
-```
+> EX:
+> 1. A sent frame at t<sub>1</sub> from A to D
+> 2. C sent frame at t<sub>2</sub> (not detect A's first bit of frame yet) in both sides
+> 3. Collision happened after t<sub>2</sub>
+> 4. C detect collision at t<sub>3</sub>
+> 5. A detect collision at t<sub>4</sub>
+> 
+> - A's transmission time is t<sub>4</sub> - t<sub>1</sub>
+> - C's transmission time is t<sub>3</sub> - t<sub>2</sub>
+
 ![](fig/CSMA-CD-ex.png)
 - Sender have to detect the collision before transmit its last bit in the frame.
 - Since after transmitted the complete frame, station will not keep the frame data and will not sense the medium.
