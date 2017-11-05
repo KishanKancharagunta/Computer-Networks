@@ -1,4 +1,4 @@
-Please refer to textbook [chapter 11](https://github.com/cnchenpu/data-comm/blob/master/ppt/Ch11-Forouzan.ppt). <br>
+Please refer to textbook [chapter 12](https://github.com/cnchenpu/data-comm/blob/master/ppt/Ch12-Forouzan.ppt). <br>
 
 # Media Access Control
 - Lower layer of __Data Link Layer__, provide addressing and shared media access control.
@@ -54,3 +54,42 @@ Vulnerable time is 2 times of frame transmission time ___T<sub>fr</sub>___. <br>
 ## Carrire Sense Multiple Access (CSMA)
 - Sense before transmission.
 - Reduce collision, reduce retransmit, increase performance.
+
+- Vulnerable time is propagation time <br>
+![](fig/CSMA-Tp.png)
+
+### How to sense the media is busy or available.
+- __Persistence Methods__
+  - 1-persistent 
+    - keep sense until medium is available 
+    - transmit if medium is available
+    - collision rate is highest
+  - non-persistent
+    - if medium not available wait for a random time before next sense
+  - p-persistnet
+    - keep sence until medium is available
+    - if medium is available, transmit in probability p
+    - wait for next time slot to sence the medium in proability 1 - p
+    
+## Carrire Sense Multiple Access with Collision Detection (CSMA/CD)
+```
+EX:
+1. A sent frame at t<sub>1</sub> from A to D
+2. C sent frame at t<sub>2</sub> (not detect A's first bit of frame yet) in both sides
+3. Collision happened after t<sub>2</sub>
+4. C detect collision at t<sub>3</sub>
+5. A detect collision at t<sub>4</sub>
+
+- A's transmission time is t<sub>4</sub> - t<sub>1</sub>
+- C's transmission time is t<sub>3</sub> - t<sub>2</sub>
+```
+![](fig/CSMA-CD-ex.png)
+- Sender have to detect the collision before transmit its last bit in the frame.
+- Since after transmitted the complete frame, station will not keep the frame data and will not sense the medium.
+- So the frame transmission time ___T<sub>fr</sub>___ should be twice of the maximum propagation time ___T<sub>p</sub>___.
+  - EX: The frame needs ___T<sub>p</sub>___ to arrive the receiver, so does the collision signal, so station should keep transmission in ___2T<sub>p</sub>___.
+
+### The minimum frame size in CSMA/CD
+
+
+![](fig/CSMA-CD.png)
