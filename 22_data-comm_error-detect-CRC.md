@@ -33,7 +33,7 @@ EX: If 1011000 is a codeword and we cyclically left-shift, then 0110001 is also 
 - CRC detect error <br>
 ![](fig/CRC-decode-2.png)
 
-# HW 6-2: CRC coding (due date: 11/6)
+# HW 6-2: CRC coding (due date: 11/13)
 - Encode 11010011101100 in CRC code, the divisor is 1011.
 - Decode the CRC code of above data-code.
 - Give an example of detect an error.
