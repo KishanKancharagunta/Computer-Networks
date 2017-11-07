@@ -1,4 +1,6 @@
 # Notes:
+- Midterm exam at 11/13.
+    - from ch2 to ch 12.
 - Every week has a homework and the due date is before next class.
 - Homework must submit to your github repository.
 
