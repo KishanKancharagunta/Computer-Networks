@@ -28,8 +28,8 @@
 - <a href="http://www.bbc.com/ukchina/trad/vert-tra-41597892"> 到加拿大接收跨大西洋無線電信號 - 馬可尼的第一個信號 </a>
 
 # Textbook:
-- Behrouz A. Forouzan / Data Communications and Networking
-- 旗標出版 / 網路概論與實務 (F7520A)
+- Behrouz A. Forouzan / Data Communications and Networking 5th Edition / McGraw-Hill 
+- 楊豐瑞, 楊豐任 / 網路概論與實務 第六版 (F7520A) / 旗標出版
 
 # Reference:
 - <a href="https://en.wikipedia.org/wiki/A_Mathematical_Theory_of_Communication">Claude E. Shannon, A Mathematical Theory of Communication (1948)</a>
