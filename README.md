@@ -1,6 +1,6 @@
 # Notes:
 - Midterm exam at 11/13.
-    - from ch2 to ch 12.
+    - from ch 2 to ch 12.
 - Every week has a homework and the due date is before next class.
 - Homework must submit to your github repository.
 
@@ -17,6 +17,7 @@
 - <a href="https://github.com/cnchenpu/data-comm/blob/master/20_data-comm_lab1-wireshark-arp.md#hw-use-wireshare-to-analyze-the-arp-protocol-due-116"> Homework 5</a>, due date: 11/6.
 - <a href="https://github.com/cnchenpu/data-comm/blob/master/21_data-comm_error-correct-1.md#hw-hamming-code-due-date-1113"> Homework 6-1</a>, due date: 11/13.
 - <a href="https://github.com/cnchenpu/data-comm/blob/master/22_data-comm_error-detect-CRC.md#hw-6-2-crc-coding-due-date-116"> Homework 6-2</a>, due date: 11/13.
+- <a href="https://trello.com/b/hvPtgAmU/presentation-topics"> Presentation Topics</a>, due date: 1/8.
 
 # Interesting:
 - <a href="https://www.techbang.com/posts/54565-usb-3-x-speed-difference-understand-different-coding-methods-the-effect-of"> USB 3.x速度大不同，看懂不同編碼方式對效能的影響 </a>
