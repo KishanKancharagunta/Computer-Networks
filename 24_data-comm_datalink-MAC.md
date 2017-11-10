@@ -1,7 +1,7 @@
 Please refer to textbook [chapter 12](https://github.com/cnchenpu/data-comm/blob/master/ppt/Ch12-Forouzan.ppt). <br>
 
 # Media Access Control
-- Lower layer of __Data Link Layer__, provide addressing and shared media access control.
+- Lower layer of __Data Link Layer__, provide addressing and shared media access control - contorl who can access and how to access the media.
 - 1. Random Access (Contension)
 - 2. Controlled Access
 - 3. Channel Division
