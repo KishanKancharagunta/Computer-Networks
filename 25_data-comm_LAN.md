@@ -50,8 +50,8 @@ Please refer to textbook [chapter 13](https://github.com/cnchenpu/data-comm/blob
 ![](fig/IEEE-Ethernet.png)
 
 # IEEE 802.3 Ethernet
+- [1-persistent](https://github.com/cnchenpu/data-comm/blob/master/24_data-comm_datalink-MAC.md#how-to-sense-the-media-is-busy-or-available) [CSMA/CD](https://github.com/cnchenpu/data-comm/blob/master/24_data-comm_datalink-MAC.md#carrire-sense-multiple-access-with-collision-detection-csmacd)
 
-![](fig/Ethernet-evolution.png)
 
 ## IEEE 802.3 MAC frame format
 ![](fig/802.3-MAC-frame.png)
@@ -105,5 +105,20 @@ Please refer to textbook [chapter 13](https://github.com/cnchenpu/data-comm/blob
 - Broadcase address
   - FF:FF:FF:FF:FF:FF
 
+# Evolution of Ethernet
+![](fig/Ethernet-evolution.png)
 
-
+- Reapter
+  - layer 1 intermediate system (acts on bits)
+  - enlarge the signal power to extend the network range
+- Bridge Ethernet
+  - layer 2 intermediate system
+  - forware frames to destination based on MAC address
+  - seprate collision domains
+  
+  ![](fig/bridge-ethernet.png)
+  
+- Switched Ethernet
+- Full-Duplex Ethernet
+- Bus topology
+- Stat topology
