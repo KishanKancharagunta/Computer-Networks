@@ -37,3 +37,73 @@ Please refer to textbook [chapter 13](https://github.com/cnchenpu/data-comm/blob
 ![](fig/backbone-network.png)
 
 ![](fig/network-topology.png)
+
+# IEEE 802 LAN Architecture
+- Physical (PHY) Layer
+- Data Link (DL) Layer
+  - Logical Link Control (LLC)
+    - addressing, connecting to other networks
+  - Media Access Contorl (MAC)
+    - efficient data transfer, sharing the medium
+- EX: IEEE 802.3 (Ethernet), IEEE 802.5 (Token Ring), IEEE 802.11 (WiFi), IEEE 802.15.1 (Bluetooth), IEEE 802.16 (WiMax),... 
+
+![](fig/IEEE-Ethernet.png)
+
+# IEEE 802.3 Ethernet
+
+![](fig/Ethernet-evolution.png)
+
+## IEEE 802.3 MAC frame format
+![](fig/802.3-MAC-frame.png)
+
+- A valid Ethernet frame size is from  64  to  1518  bytes.
+- Preamble: 56 bits (7 bytes) of alternating 1s and 0s 
+  - define in physical layer
+- Start Frame Delimiter (SFD): 10101011 (1 byte)
+- Destination Address (DA): MAC address of receiver 
+  - 6 bytes
+- Source Address (SA): MAC address of self (sender) 
+  - 6 bytes
+- Type: Identify the protocol type of upper layer, EX: ARP.
+  - 2 bytes
+- Data: Data from upper layer
+  - minimum payload length: 46 bytes
+  - maximum palyoad length: 1500 bytes
+  - divide data into multiple frames if data length larger than the limitation
+  - The largest possible payload in a frame is called the Maximum Transmission Unit __(MTU)__
+    - Jumbo Frame
+- CRC: CRC check - 4 bytes.
+
+## Jumbo Frame
+- Larger MTUs allow greater efficiency in data transmission since each frame carries more user data (payload) while protocol overhead and underlying per-packet delay remain fixed. 
+- The effective use of Jumbo frames requires that every link along the network path support the same Jumbo frame MTU.
+- Application:
+  - Server Clustering  
+  - Server Backups (larger MTUs permit faster backups) 
+  - High Speed Supercomputer Interconnect (for data transfer, not messaging) 
+  - Network File Server (NFS) Protocol (9000 byte MTU to carry an 8192 NFS data block) 
+  - iSCSI SANs (9000 bytes to reduce the effect of TCP frame overhead) 
+  - FCoE SANs (2500 bytes to enclose an FC frame of 2000 bytes) 
+- Sending data in Jumbo frames results in fewer frames being sent across the network. 
+- Processing fewer frames generates conservation of CPU cycles and thus greater throughput.
+
+![](fig/jumbo-frame-perf.png)
+
+- Larger frames consume more Ethernet link transmission time, causing greater delays for those packets that follow and thus increasing latency.      
+- This could have a negative consequence for applications that require low latency and consist of smaller packet sizes such as Voice over IP.
+
+![](fig/frame-trans-time.png)
+
+# MAC address
+![](fig/mac-address.png)
+
+- Ethernet (48 bits, 6 bytes) 
+- Unicase address
+  - A3:34:45:11:92:F1
+- Multicase address
+  - A2:34:45:11:92:F1
+- Broadcase address
+  - FF:FF:FF:FF:FF:FF
+
+
+
