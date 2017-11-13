@@ -115,17 +115,21 @@ Please refer to textbook [chapter 13](https://github.com/cnchenpu/data-comm/blob
   - layer 1 intermediate system (acts on bits)
   - enlarge the signal power to extend the network range
   - the same collision domain
-- Bridge Ethernet
+- Bridge Ethernet (Layer 2 Switch)
+  - connect 2 segments (the same protocol)
   - layer 2 intermediate system
-  - forware frames to destination based on MAC address
+  - forward layer 2 broadcast
   - seprate collision domains
-  
-  ![](fig/bridge-ethernet.png)
-
-- Layer 2 Switch
   - use MAC address for switching
   - keep the mapping of MAC addresses and switch ports
   - use broadcast to find the MAC address if it not found in table
+  - Bridging: software based
+  - LAN switching: hardware (ASIC) based
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Network_Bridging.png/800px-Network_Bridging.png)
+
+![](fig/bridge-ethernet.png)
+  
 - Layer 3 Switch (IP Switch, Switch Router)
   - keep routing table  
   - use IP address for switching
