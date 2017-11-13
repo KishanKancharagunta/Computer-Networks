@@ -108,6 +108,9 @@ Please refer to textbook [chapter 13](https://github.com/cnchenpu/data-comm/blob
 # Evolution of Ethernet
 ![](fig/Ethernet-evolution.png)
 
+- Bandwidth Enhancement
+  - comptible: not change frame format
+  - higher speed, shorter transmission range
 - Reapter
   - layer 1 intermediate system (acts on bits)
   - enlarge the signal power to extend the network range
