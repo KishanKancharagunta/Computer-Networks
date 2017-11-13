@@ -1,5 +1,5 @@
 # Notes:
-- Midterm exam at 11/13.
+- [Midterm exam](data-comm-2017-mid.docx) at 11/13.
     - from ch 2 to ch 12.
 - Every week has a homework and the due date is before next class.
 - Homework must submit to your github repository.
