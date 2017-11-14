@@ -126,9 +126,9 @@ Please refer to textbook [chapter 13](https://github.com/cnchenpu/data-comm/blob
   - Bridging: software based
   - LAN switching: hardware (ASIC) based
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Network_Bridging.png/800px-Network_Bridging.png)
-
 ![](fig/bridge-ethernet.png)
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Network_Bridging.png/800px-Network_Bridging.png)
   
 - Layer 3 Switch (IP Switch, Switch Router)
   - keep routing table  
@@ -138,6 +138,12 @@ Please refer to textbook [chapter 13](https://github.com/cnchenpu/data-comm/blob
   - 802.1q
   - use VLAN tags for switching
 - Switched Ethernet
+
+![](fig/switched-ethernet.png)
+
 - Full-Duplex Ethernet
+
+![](fig/full-duplex-switch-ethernet.png)
+
 - Bus topology
 - Stat topology
