@@ -141,8 +141,12 @@ Please refer to textbook [chapter 13](https://github.com/cnchenpu/data-comm/blob
 
 ![](fig/switched-ethernet.png)
 
-- Full-Duplex Ethernet
-
+- Full-Duplex Switched Ethernet
+  - send and receive data at the same time
+  - each station is connected to the switch via two seprate links
+  - each link is a point-to-point dedicated path between the station and the switch
+  - CSMA/CD is not needed
+  
 ![](fig/full-duplex-switch-ethernet.png)
 
 - Bus topology
