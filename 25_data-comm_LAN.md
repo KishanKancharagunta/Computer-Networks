@@ -88,7 +88,7 @@ Please refer to textbook [chapter 13](https://github.com/cnchenpu/data-comm/blob
 ## Why Ethernet frames must be at least 64 bytes long?
 - Because the need of Collision Detection.
   - The maximum distance of Ethernet is 2500m between hosts.
-    - Assume the speed of electron is 2x10<sup>8</sup> m/sec (speed of light is 3x10<sup>8</sup> m/sec).
+    - Assume the speed of electron is 1x10<sup>8</sup> m/sec (speed of light is 3x10<sup>8</sup> m/sec).
     - So 2500m needs 25 &mu;s, we use 25.6 &mu;s.
   - The frame must be alive in 2 times (a round-trip) of longest transmission time for collision detection.
     - So a round-trip time (RTT) needs 2x25.6 = 51.2 &mu;s.
