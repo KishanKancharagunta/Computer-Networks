@@ -50,8 +50,19 @@ Please refer to textbook [chapter 13](https://github.com/cnchenpu/data-comm/blob
 ![](fig/IEEE-Ethernet.png)
 
 # IEEE 802.3 Ethernet
+- Most popular packet-switched LAN technology
+- Bandwidths: 10Mbps, 100Mbps, 1Gbps, 10Gbps
+- Max bus length: 2500m 
+  - 500m segments with 4 repeaters
 - [1-persistent](https://github.com/cnchenpu/data-comm/blob/master/24_data-comm_datalink-MAC.md#how-to-sense-the-media-is-busy-or-available) [CSMA/CD](https://github.com/cnchenpu/data-comm/blob/master/24_data-comm_datalink-MAC.md#carrire-sense-multiple-access-with-collision-detection-csmacd)
-
+  - listens to line before/during sending
+  - If line is idle (no carrier sensed)
+    - send packet immediately
+  - If line is busy (carrier sensed)
+    - wait until idle and transmit packet immediately (1-persistent)
+  - If collision detected
+    - Stop sending and jam signal
+    - Try again later
 
 ## IEEE 802.3 MAC frame format
 ![](fig/802.3-MAC-frame.png)
@@ -73,6 +84,18 @@ Please refer to textbook [chapter 13](https://github.com/cnchenpu/data-comm/blob
   - The largest possible payload in a frame is called the Maximum Transmission Unit __(MTU)__
     - Jumbo Frame
 - CRC: CRC check - 4 bytes.
+
+## Why Ethernet frames must be at least 64 bytes long?
+- Because the need of Collision Detection.
+  - The maximum distance of Ethernet is 2500m between hosts.
+    - Assume the speed of electron is 2x10<sup>8</sup> m/sec (speed of light is 3x10<sup>8</sup> m/sec).
+    - So 2500m needs 25 &mu;s, we use 25.6 &mu;s.
+  - The frame must be alive in 2 times (a round-trip) of longest transmission time for collision detection.
+    - So a round-trip needs 2x25.6 = 51.2 &mu;s.
+  - For 10Mbps Ethernet, it need 0.1 &mu;s for 1 bit, so 51.2 &mu;s can send 512 bits, that is 64 bytes.
+  - Fast Ethernet has the same 64 byte minimum frame size but can get bits out 10 times faster.
+  
+![](fig/ethernet-collision.png)
 
 ## Jumbo Frame
 - Larger MTUs allow greater efficiency in data transmission since each frame carries more user data (payload) while protocol overhead and underlying per-packet delay remain fixed. 
