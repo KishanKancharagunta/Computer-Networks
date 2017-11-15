@@ -91,9 +91,11 @@ Please refer to textbook [chapter 13](https://github.com/cnchenpu/data-comm/blob
     - Assume the speed of electron is 2x10<sup>8</sup> m/sec (speed of light is 3x10<sup>8</sup> m/sec).
     - So 2500m needs 25 &mu;s, we use 25.6 &mu;s.
   - The frame must be alive in 2 times (a round-trip) of longest transmission time for collision detection.
-    - So a round-trip needs 2x25.6 = 51.2 &mu;s.
+    - So a round-trip time (RTT) needs 2x25.6 = 51.2 &mu;s.
   - For 10Mbps Ethernet, it need 0.1 &mu;s for 1 bit, so 51.2 &mu;s can send 512 bits, that is 64 bytes.
   - Fast Ethernet has the same 64 byte minimum frame size but can get bits out 10 times faster.
+    - RTT: 5.12 &mu;s
+    - Shorter the network range.
   
 ![](fig/ethernet-collision.png)
 
