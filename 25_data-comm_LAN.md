@@ -137,7 +137,6 @@ Please refer to textbook [chapter 13](https://github.com/cnchenpu/data-comm/blob
 - Virtual LAN
   - 802.1q
   - use VLAN tags for switching
-- Switched Ethernet
 
 ![](fig/switched-ethernet.png)
 
@@ -148,6 +147,3 @@ Please refer to textbook [chapter 13](https://github.com/cnchenpu/data-comm/blob
   - CSMA/CD is not needed
   
 ![](fig/full-duplex-switch-ethernet.png)
-
-- Bus topology
-- Stat topology
