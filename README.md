@@ -1,6 +1,7 @@
 # Notes:
 - [Midterm exam](data-comm-2017-mid.docx) at 11/13.
     - from ch 2 to ch 12.
+    - Ans: AABCD BAABC CACBB BCCBB DCBAA BDCBA BBACA CACBC CBBAA BACDA
 - Every week has a homework and the due date is before next class.
 - Homework must submit to your github repository.
 
