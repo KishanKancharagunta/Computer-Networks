@@ -20,6 +20,7 @@
 - <a href="https://trello.com/b/hvPtgAmU/presentation-topics"> Presentation Topics</a>, due date: 1/8.
 
 # Interesting:
+- <a href="https://softnshare.wordpress.com/2017/11/16/iot-security-5-things-to-know/"> 物聯網安全趨勢洞見 </a>
 - <a href="https://www.techbang.com/posts/54565-usb-3-x-speed-difference-understand-different-coding-methods-the-effect-of"> USB 3.x速度大不同，看懂不同編碼方式對效能的影響 </a>
 - <a href="http://www.bbc.com/ukchina/trad/vert_fut/2016/05/160518_vert_fut_the-invisible-language-of-trains-boats-and-planes"> 支配全球物流運輸網的秘密信號 </a>
 - <a href="https://en.wikipedia.org/wiki/Sigfox"> Sigfox 低頻低速 IoT 網路 </a>
