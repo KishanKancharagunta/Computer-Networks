@@ -1,4 +1,4 @@
-# The 5-4-3 rule
+# The 5-4-3 rule for Ehternet Networking
 - 5 segments with 4 repeaters, and no more than 3 of the 5 network segments can be for end-uses.
 
 ![](fig/ethernet-543rule.png)
@@ -23,7 +23,12 @@
 # Network Cabling
 ![](http://www.easy2pc.co.uk/images/products/server_room_before_after_56.jpg)
 
-- [Cabling the Data Center](https://www.brocade.com/content/dam/common/documents/content-types/product-design-guide/cabling-best-practices-ga-bp-036-02.pdf)
+- Cable Manager
+- Patch Panel
+- Cooling System
+- Overhead Cable Pathway
+- ...
+- A practice guide: [Cabling the Data Center](https://www.brocade.com/content/dam/common/documents/content-types/product-design-guide/cabling-best-practices-ga-bp-036-02.pdf)
 
 ![](fig/network-cabling.png)
 
