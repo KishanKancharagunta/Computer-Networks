@@ -68,6 +68,8 @@ Please refer to textbook [chapter 13](https://github.com/cnchenpu/data-comm/blob
 ![](fig/802.3-MAC-frame.png)
 
 - A valid Ethernet frame size is from  64  to  1518  bytes.
+  - the shortest frame size is determined by the Etherent's __Collision Detection__ needs
+  - the longer frame size the bigger buffer (memory) needs
 - Preamble: 56 bits (7 bytes) of alternating 1s and 0s 
   - define in physical layer
 - Start Frame Delimiter (SFD): 10101011 (1 byte)
