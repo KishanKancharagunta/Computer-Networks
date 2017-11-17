@@ -58,7 +58,7 @@ Please refer to textbook [chapter 13](https://github.com/cnchenpu/data-comm/blob
   - listens to line before/during sending
   - If line is idle (no carrier sensed)
     - send packet immediately
-    - wait 96 bits time (__interframe gap__) between frames - 9.6 &mu;s for 10M bps Ethernet.
+    - wait 96 bits time (__inter packet gap__) between frames - 9.6 &mu;s for 10M bps Ethernet.
   - If line is busy (carrier sensed)
     - wait until idle and transmit packet immediately (1-persistent)
   - If collision detected
