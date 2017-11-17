@@ -49,7 +49,7 @@ Please refer to textbook [chapter 13](https://github.com/cnchenpu/data-comm/blob
 
 ![](fig/IEEE-Ethernet.png)
 
-# IEEE 802.3 Ethernet
+# Ethernet (IEEE 802.3) 10BaseT
 - Most popular packet-switched LAN technology
 - Bandwidths: 10Mbps, 100Mbps, 1Gbps, 10Gbps
 - Max bus length: 2500m 
@@ -58,6 +58,7 @@ Please refer to textbook [chapter 13](https://github.com/cnchenpu/data-comm/blob
   - listens to line before/during sending
   - If line is idle (no carrier sensed)
     - send packet immediately
+    - wait 96 bits time (__interframe gap__) between frames - 9.6 &mu;s for 10M bps Ethernet.
   - If line is busy (carrier sensed)
     - wait until idle and transmit packet immediately (1-persistent)
   - If collision detected
@@ -131,6 +132,16 @@ Please refer to textbook [chapter 13](https://github.com/cnchenpu/data-comm/blob
   - A2:34:45:11:92:F1
 - Broadcase address
   - FF:FF:FF:FF:FF:FF
+
+# Ethernet Problem
+Ethernet throughput worst with:
+- More hosts
+  - More collisions needed to identify single sender
+- Smaller packet sizes
+  - More frequent arbitration
+- Longer links
+  - Collisions take longer to observe, more wasted bandwidth
+- Efficiency is improved by avoiding these conditions
 
 # Evolution of Ethernet
 ![](fig/Ethernet-evolution.png)
