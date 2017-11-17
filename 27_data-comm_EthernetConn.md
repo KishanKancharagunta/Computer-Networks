@@ -22,3 +22,8 @@
 
 # Network Cabling
 ![](http://www.easy2pc.co.uk/images/products/server_room_before_after_56.jpg)
+
+- [Cabling the Data Center](https://www.brocade.com/content/dam/common/documents/content-types/product-design-guide/cabling-best-practices-ga-bp-036-02.pdf)
+
+![](fig/network-cabling.png)
+
