@@ -1,4 +1,4 @@
-Please refer to textbook [chapter 13](https://github.com/cnchenpu/data-comm/blob/master/ppt/Ch13-Forouzan.ppt).
+Please refer to textbook [chapter 13](https://github.com/cnchenpu/data-comm/blob/master/ppt/Ch13-Forouzan.ppt) and [chapter 17](https://github.com/cnchenpu/data-comm/blob/master/ppt/Ch17-Forouzan.ppt).
 
 # General Network Issues (Pro and Con)
 - Selecting the transmission medium
