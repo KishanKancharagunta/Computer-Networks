@@ -149,7 +149,7 @@ Ethernet throughput worst with:
 - Bandwidth Enhancement
   - comptible: not change frame format
   - higher speed, shorter transmission range
-- Reapter
+- Hub/Reapter
   - layer 1 intermediate system (acts on bits)
   - enlarge the signal power to extend the network range
   - the same collision domain
