@@ -53,8 +53,8 @@ Please refer to textbook [chapter 17](https://github.com/cnchenpu/data-comm/blob
   
   ![](fig/ethernet-cabling.png)
     
-  - Straight Through cable: connect T568A and T568A or connect T568B and T568B. 
-  - Cross-over cable: connect T568A and T568B.
+  - Straight Through cable: Connect different type devices, e.q. computer and switch 
+  - Cross-over cable: Connect the same type devices, e.q. two computers or two switches.
   
   ![](fig/ethernet-RJ45.png)
 
