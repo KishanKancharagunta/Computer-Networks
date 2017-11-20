@@ -11,6 +11,7 @@ Please refers to textbook [chapter 15](https://github.com/cnchenpu/data-comm/blo
   ![](fig/wireless-LAN.png)
   
 - Roaming issue
+  - Mobile IP
 - The hidden station problem
 
 ## 802.11a
