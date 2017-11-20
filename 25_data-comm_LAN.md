@@ -1,5 +1,8 @@
 Please refer to textbook [chapter 13](https://github.com/cnchenpu/data-comm/blob/master/ppt/Ch13-Forouzan.ppt) and [chapter 17](https://github.com/cnchenpu/data-comm/blob/master/ppt/Ch17-Forouzan.ppt).
 
+This week we are going to discuss the majority LAN protocol - Ethernet. 
+Before that, let's take a look about general networking concerns.
+
 # General Network Issues (Pro and Con)
 - Selecting the transmission medium
   - Wired
@@ -16,6 +19,9 @@ Please refer to textbook [chapter 13](https://github.com/cnchenpu/data-comm/blob
   - LAN
   - WAN
   - Backbone
+  
+  ![](fig/backbone-network.png)
+  
 - Network topology
   - Mesh
     - each pair of nodes have dedicated point-to-point link
@@ -33,8 +39,6 @@ Please refer to textbook [chapter 13](https://github.com/cnchenpu/data-comm/blob
   - Star
     - today most LAN use Star topology
     - fault tolerance for links
-
-![](fig/backbone-network.png)
 
 ![](fig/network-topology.png)
 
