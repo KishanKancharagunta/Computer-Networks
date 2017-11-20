@@ -32,7 +32,6 @@
 
 # Textbook:
 - Behrouz A. Forouzan / Data Communications and Networking 5th Edition / McGraw-Hill 
-- 楊豐瑞, 楊豐任 / 網路概論與實務 第六版 (F7520A) / 旗標出版
 
 # Reference:
 - <a href="https://en.wikipedia.org/wiki/A_Mathematical_Theory_of_Communication">Claude E. Shannon, A Mathematical Theory of Communication (1948)</a>
