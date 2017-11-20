@@ -72,6 +72,8 @@ Before that, let's take a look about general networking concerns.
 ## IEEE 802.3 MAC frame format
 ![](fig/802.3-MAC-frame.png)
 
+[Let's take a look the Ethernet frame format from Wireshark outputs:](https://github.com/cnchenpu/data-comm/blob/master/20_data-comm_lab1-wireshark-arp.md)
+
 - A valid Ethernet frame size is from  64  to  1518  bytes.
   - the shortest frame size is determined by the Etherent's __Collision Detection__ needs
   - the longer frame size the bigger buffer (memory) needs
