@@ -26,7 +26,7 @@ Please refers to textbook [chapter 15](https://github.com/cnchenpu/data-comm/blo
   - If sender does not receive CTS, it knows the receiver is busy and does not transmit data.
   - CTS/RTS packets may still collide, but they are small, so the probability of collisions is reduced.
   
-  ![](fig/RTC-CTS.png)
+  ![](fig/RTS-CTS.png)
   
 - Roaming issue
   - Mobile IP
