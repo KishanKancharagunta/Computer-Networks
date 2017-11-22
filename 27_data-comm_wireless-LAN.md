@@ -2,6 +2,22 @@ Please refers to textbook [chapter 15](https://github.com/cnchenpu/data-comm/blo
 
 # Wireless LAN (IEEE 802.11)
 - [CSMA/CA](https://github.com/cnchenpu/data-comm/blob/master/24_data-comm_datalink-MAC.md#carrire-sense-multiple-access-with-collision-avoidance-csmaca)
+
+![](fig/CSMACA-flow.png)
+
+  - DIFS: Distributed inter-frame space
+    - a wait-time before transmission for coordination
+  - RTS: Request To Send
+  - SIFS: Short Inter-Frame Space
+    - a wait-time before RTC, CTS and ACK
+  - CTS: Clear To Send
+    - inform sender that I am ready to receive your data, and tell others I am busy (to avoid collision)
+  - ACK: Acknowledgement
+  - NAV: Network Allocation Vector
+    - control other nodes not to send data
+  - Contention Window
+    - random backoff time (to avoid collision)
+  
 - Ad hoc (Peer-to-Peer)
   - connect without __Access Point (AP)__
 - Infrastruct
