@@ -10,9 +10,26 @@ Please refers to textbook [chapter 15](https://github.com/cnchenpu/data-comm/blo
   
   ![](fig/wireless-LAN.png)
   
+- The hidden terminial problem
+
+![](fig/hidden-terminal-problem.png)
+
+- The exposed terminal problem
+
+![](fig/exposed-terminal-problem.png)
+
+- RTS (Request to Send) / CTS (Clear to Send) - Collision-Avoidance
+  - Sender transmits special Request-to-send (RTS) packet: the packet contains the length of data to be sent, L.
+  - Receiver replies with Clear-to-send (CTS) packet: this packet also contains the length of data (same as before).
+  - Every node hearing the RTS remains quiet for CTS+L.
+  - Every node hearing the CTS remains quiet for L.
+  - If sender does not receive CTS, it knows the receiver is busy and does not transmit data.
+  - CTS/RTS packets may still collide, but they are small, so the probability of collisions is reduced.
+  
+  ![](fig/RTC-CTS.png)
+  
 - Roaming issue
   - Mobile IP
-- The hidden station problem
 
 ## 802.11a
 - uses 5-GHz band
