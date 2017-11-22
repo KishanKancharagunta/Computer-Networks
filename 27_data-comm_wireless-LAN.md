@@ -31,6 +31,10 @@ Please refers to textbook [chapter 15](https://github.com/cnchenpu/data-comm/blo
 - Roaming issue
   - Mobile IP
 
+- Wireless LAN security issue
+  - Unauthorized AP
+  ![](fig/evil-twin-AP.png)
+
 ## 802.11a
 - uses 5-GHz band
 
