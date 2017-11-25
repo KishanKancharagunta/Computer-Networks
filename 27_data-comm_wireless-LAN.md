@@ -25,13 +25,25 @@ Please refers to textbook [chapter 15](https://github.com/cnchenpu/data-comm/blo
   - multiple access point: __Extend Service Set (ESS)__
   
   ![](fig/wireless-LAN.png)
-  
-- The hidden terminial problem
 
+## WLAN Frame Format
+![](fig/WLAN-frame.png)
+
+## WLAN Addressing Mechanism
+![](fig/WLAN-add-types.png)
+
+![](fig/WLAN-add-type1.png)
+
+![](fig/WLAN-add-type2.png)
+
+![](fig/WLAN-add-type3.png)
+
+![](fig/WLAN-add-type4.png)
+
+## The hidden terminial problem
 ![](fig/hidden-terminal-problem.png)
 
-- The exposed terminal problem
-
+## The exposed terminal problem
 ![](fig/exposed-terminal-problem.png)
 
 - RTS (Request to Send) / CTS (Clear to Send) - Collision-Avoidance
