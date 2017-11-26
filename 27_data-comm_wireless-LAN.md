@@ -26,6 +26,27 @@ Please refers to textbook [chapter 15](https://github.com/cnchenpu/data-comm/blo
   
   ![](fig/wireless-LAN.png)
 
+## 802.11 a/b/g/n/ac
+- 802.11a
+  - uses 5-GHz band
+  - 54Mbit/s
+
+- 802.11b
+  - uses 2.4-GHz band
+  - 11Mbit/s
+  
+- 802.11g
+  - uses 2.4-GHz band
+  - 54Mbit/s
+  
+- 802.11n
+  - uses 2.4-GHz and 5-GHz band
+  - 72~150Mbit/s
+  
+- 802.11ac
+  - uses 5-GHz band
+  - 87~866Mbit/s
+  
 ## WLAN Frame Format
 ![](fig/WLAN-frame.png)
 
@@ -64,22 +85,12 @@ Please refers to textbook [chapter 15](https://github.com/cnchenpu/data-comm/blo
   
   ![](fig/RTS-CTS.png)
   
-- Roaming issue
+## Roaming issue
   - Mobile IP
 
-- Wireless LAN security issue
+## Wireless LAN security issue
   - Unauthorized AP
   ![](fig/evil-twin-AP.png)
-
-## 802.11a
-- uses 5-GHz band
-
-## 802.11b
-
-## 802.11g
-- higher speed extension to 802.11b 
-- operates in 2.4GHz band
-- compatible with 802.11b devices
 
 # Bluetooth vs. 802.11b
 - Both technologies use the 2.4 GHz radio frequency for wireless communications.
