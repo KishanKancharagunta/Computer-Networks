@@ -32,13 +32,21 @@ Please refers to textbook [chapter 15](https://github.com/cnchenpu/data-comm/blo
 ## WLAN Addressing Mechanism
 ![](fig/WLAN-add-types.png)
 
-![](fig/WLAN-add-type1.png)
+- case 1: A to B directlly (in the same BSS)
 
-![](fig/WLAN-add-type2.png)
+  ![](fig/WLAN-add-type1.png)
 
-![](fig/WLAN-add-type3.png)
+- case 2: A to AP (different BSS)
 
-![](fig/WLAN-add-type4.png)
+  ![](fig/WLAN-add-type3.png)
+
+- case 3: AP to B (different BSS)
+
+  ![](fig/WLAN-add-type2.png)
+
+- case 4: AP tp AP (different BSS)
+
+  ![](fig/WLAN-add-type4.png)
 
 ## The hidden terminial problem
 ![](fig/hidden-terminal-problem.png)
