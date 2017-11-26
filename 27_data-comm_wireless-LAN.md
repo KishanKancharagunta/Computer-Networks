@@ -105,8 +105,13 @@ Please refers to textbook [chapter 15](https://github.com/cnchenpu/data-comm/blo
   
   ![](fig/mobile-encap.gif)
   
-## Wireless LAN security issue
-  - Unauthorized AP
+## Wireless LAN security threats
+- Signal interception - sniffing
+- Unauthorized network access
+- Unauthorized AP - no access control and direct access to the intranet behind firewall
+- Denial of service - logical attackes with signal jamming
+- AP spoofing
+
   ![](fig/evil-twin-AP.png)
 
 # Bluetooth vs. 802.11b
