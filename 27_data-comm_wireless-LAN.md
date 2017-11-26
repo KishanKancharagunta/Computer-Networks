@@ -85,9 +85,26 @@ Please refers to textbook [chapter 15](https://github.com/cnchenpu/data-comm/blo
   
   ![](fig/RTS-CTS.png)
   
-## Roaming issue
-  - Mobile IP
+## Mobile IP
+  - Roaming issue 
+  - Home Agent(HA): A router on the home network which represents the MN while it’s not attached to the home network
+  - Home Address (HoA): A (static) IP address out of the mobile nodes home network
+  - Foreign Agent(FA): new visited place and provides Care of Address (CoA)
+  - Mobile Node(MN)
+  - Correspondent Node(CN): send message to MN
+  - Care-of-Address(CoA): physical IP address of a MN while visiting a foreign network
 
+  ![](fig/MobileIP.png)
+  
+- MN connects to foreign network and gets a CoA
+- MN sends binding updateto HA
+- HA uses proxy neighbor discovery (ARP) to represent the MN in the home network
+- Every traffic destined to the MN will be encapsulated in a IPv6-in-IPv6 Tunnel and send to the CoA of the MN
+  
+  ![](fig/mobileip-reg.gif)
+  
+  ![](fig/mobile-encap.gif)
+  
 ## Wireless LAN security issue
   - Unauthorized AP
   ![](fig/evil-twin-AP.png)
