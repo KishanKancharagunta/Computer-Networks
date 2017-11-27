@@ -75,8 +75,6 @@ Please refers to textbook [chapter 15](https://github.com/cnchenpu/data-comm/blo
 ## The exposed terminal problem
 ![](fig/exposed-terminal-problem.png)
 
-# HW : How to solve the Hidden Terminal Problem (due date: 12/4)
-
 - RTS (Request to Send) / CTS (Clear to Send) - Collision-Avoidance
   - Sender transmits special Request-to-send (RTS) packet: the packet contains the length of data to be sent, L.
   - Receiver replies with Clear-to-send (CTS) packet: this packet also contains the length of data (same as before).
@@ -86,8 +84,10 @@ Please refers to textbook [chapter 15](https://github.com/cnchenpu/data-comm/blo
   - CTS/RTS packets may still collide, but they are small, so the probability of collisions is reduced.
   
   ![](fig/RTS-CTS.png)
-  
-## Mobile IP
+
+## HW : How to solve the Hidden Terminal Problem (due date: 12/4)
+
+# Mobile IP
   - Roaming issue 
   - Home Agent(HA): A router on the home network which represents the MN while it’s not attached to the home network
   - Home Address (HoA): A (static) IP address out of the mobile nodes home network
