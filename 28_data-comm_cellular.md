@@ -1,7 +1,7 @@
 # Cellular System
-![](fig/cellular-system.png)
+![](fig/celluar-system.png)
 
-![](fig/cellular-system-1.png)
+![](fig/celluar-system-1.png)
 
 ## AMPS
 ## PHS
