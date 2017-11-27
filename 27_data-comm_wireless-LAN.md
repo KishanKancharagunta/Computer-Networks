@@ -152,3 +152,27 @@ Please refers to textbook [chapter 15](https://github.com/cnchenpu/data-comm/blo
   - set clock and frequency
   - can connect __7 active__ or 255 inactive __(parked) slaves__
   - determines bit rate allocated to each slave
+
+## Bluetooth connection process
+1. Inquiry
+    - One device sends out the inquiry request, and any device listening for such a request will respond with its address, and possibly its name and other information.
+2. Paging (Connecting) 
+    - Bonding
+      - Bonded devices automatically establish a connection whenever they’re close enough
+    - Pairing
+      - Bonds are created through one-time a process called pairing.
+      - When devices pair up, they share their addresses, names, and profiles, and usually store them in memory. 
+      - The also share a common secret key, which allows them to bond whenever they’re together in the future.
+3. Connection State
+    - Active mode
+    - Sniff mode
+      - power-saving mode, where the device is less active
+      - sleep and only listen for transmissions at a set interval
+    - Hold mode
+      - a temporary, power-saving mode 
+      - device sleeps for a defined period and then returns back to active mode when that interval has passed
+      - master can command a slave device to hold
+    - Park mode
+      - deepest of sleep modes
+      - master can command a slave to park, and that slave will become inactive until the master tells it to wake back up   
+
