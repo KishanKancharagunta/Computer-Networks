@@ -141,3 +141,14 @@ Please refers to textbook [chapter 15](https://github.com/cnchenpu/data-comm/blo
 - Both technologies use the 2.4 GHz radio frequency for wireless communications.
 - Bluetooth technology is focused on replacing the short cables used to connect consumer electronic devices such as keyboards and mouse devices.
 - Bluetooth's range is limited to approximately 3 m to 9.1 m with a raw data rate of 1 Mbps/723 Kbps available.
+
+## Bluetooth Piconet
+![](fig/bluetooth-net.png)
+
+- connection of devices connected in an ___ad hoc___ fasion
+- all device participating in the __piconet__ are synchronized to a common clock and frequency
+- slaves can communicate only with the master and not with other slaves
+- one __Master__
+  - set clock and frequency
+  - can connect __7 active__ or 255 inactive __(parked) slaves__
+  - determines bit rate allocated to each slave
