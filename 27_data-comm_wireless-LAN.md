@@ -69,11 +69,13 @@ Please refers to textbook [chapter 15](https://github.com/cnchenpu/data-comm/blo
 
   ![](fig/WLAN-add-type4.png)
 
-## The hidden terminial problem
+## The hidden terminal problem
 ![](fig/hidden-terminal-problem.png)
 
 ## The exposed terminal problem
 ![](fig/exposed-terminal-problem.png)
+
+# HW : How to solve the Hidden Terminal Problem (due date: 12/4)
 
 - RTS (Request to Send) / CTS (Clear to Send) - Collision-Avoidance
   - Sender transmits special Request-to-send (RTS) packet: the packet contains the length of data to be sent, L.
