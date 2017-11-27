@@ -93,6 +93,7 @@ Please refers to textbook [chapter 15](https://github.com/cnchenpu/data-comm/blo
   - Mobile Node(MN)
   - Correspondent Node(CN): send message to MN
   - Care-of-Address(CoA): physical IP address of a MN while visiting a foreign network
+  - Binding: association of the home address with the Care-of-address of a MN
 
   ![](fig/MobileIP.png)
   
