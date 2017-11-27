@@ -102,10 +102,32 @@ Please refers to textbook [chapter 15](https://github.com/cnchenpu/data-comm/blo
 - HA uses proxy neighbor discovery (ARP) to represent the MN in the home network
 - Every traffic destined to the MN will be encapsulated in a IPv6-in-IPv6 Tunnel and send to the CoA of the MN
   
-  ![](fig/mobileip-reg.gif)
+## Mobile IP Registration
+![](fig/mobileip-reg.gif)
   
   ![](fig/mobile-encap.gif)
+
+## Mobile IP Routing issues
+- Traffic from MN will be send directly to CN, but outgoing traffic can't use the HoA as source address (anti-spoofing)
+
+  ![](fig/mobileIP-route1.png)
+
+- Routing optimization
+  1. MN sends __binding updates__ to CN
+  2. MN sends __traffic to CN__ with CoA as source address
+    - packet contains a HoA destination option
+  3. CN replace the source address with the home address before passing the packet to the upper layer protocol
   
+  ![](fig/mobileIP-route2.png)
+
+  4. CN sends __traffic to MN__ with CoA as destination address
+    - packet contains a special __Routing Header__ with HoA as second hop
+  5. MN removes the routing header and __forward__ the packet to the next hop specified by the __routing header__
+    - upper layer protocol is only aware of HoA
+    
+  ![](fig/mobileIP-route3.png)
+
+
 ## Wireless LAN security threats
 - Signal interception - sniffing
 - Unauthorized network access
