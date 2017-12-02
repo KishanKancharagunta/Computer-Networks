@@ -42,8 +42,31 @@
 
 ![](fig/IPaddress-calss3.png)
 
-## Network ID & Host ID
+## Net ID & Host ID
 ![](fig/netid-hostid.png)
 
+- Network address: host ID bits all 0.
+- Broadcast address: host ID bits all 1.
+
+- Class A
+    + 2<sup>7</sup>=128 networks
+    + 2<sup>24</sup>=16,777,216 addresses in each network
+- Class B
+    + 2<sup>14</sup>=16,384 networks
+    + 2<sup>16</sup>=65,536 addresses in each network
+- Class C
+    + 2<sup>21</sup>=2,097,152 networks
+    + 2<sup>8</sup>=256 addresses in each network
+
 ## Subnet & Netmask
+- Subnet: use host ID for subnet ID
+- Netmask: to find the network ID
+
+![](fig/subnet-mask.png)
+
+## Private IP
+![](fig/privateIP.png)
+
+## NAT
+![](fig/NAT.png)
 
