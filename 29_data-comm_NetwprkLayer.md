@@ -31,3 +31,19 @@
 
 ![](fig/datagram-switching.png)
 
+# Addressing
+- IPv4: 32 bits
+- IPv6: 128 bits
+
+## IP Address class
+![](fig/IPaddress-calss.png)
+
+![](fig/IPaddress-calss2.png)
+
+![](fig/IPaddress-calss3.png)
+
+## Network ID & Host ID
+![](fig/netid-hostid.png)
+
+## Subnet & Netmask
+
