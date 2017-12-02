@@ -3,9 +3,10 @@
 
 ## Inter-Networking
 - Hop-to-Hop
-- Host-to-Host
 
     ![](fig/hop2hop.png)
+
+- Host-to-Host
 
     ![](fig/host2host.png)
 
@@ -24,8 +25,8 @@
 - Circuit switching
     + Connection Oriented
 - Packet switching
-    - Virtual Circuit switching
-    - Datagram switching
+    + Virtual Circuit switching
+    + Datagram switching
         + Connectionless
 
 ![](fig/datagram-switching.png)
