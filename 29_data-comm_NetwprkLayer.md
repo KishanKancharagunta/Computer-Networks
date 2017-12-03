@@ -67,6 +67,10 @@
 ## Private IP
 ![](fig/privateIP.png)
 
-## NAT
+## NAT (Network Address Translation)
 ![](fig/NAT.png)
+
+## DHCP (Dynamic Host Configuration Protocol)
+![](fig/DHCP.png)
+
 
