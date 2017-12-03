@@ -1,7 +1,7 @@
 # Network Layer Protocols
 
 ## IPv4 Header
-![](fig/IP4v-header.png)
+![](fig/IPv4-header.png)
 
 - Version: 
     + IP protocol version
@@ -49,7 +49,7 @@
 __The minimum lenght of IP header is 20 bytes.__
 
 ### IPv4 Header Wireshark example
-![](fig/IP4v-header-ex.png)
+![](fig/IPv4-header-ex.png)
 
 - Version: 4
     + IP protocol version 
