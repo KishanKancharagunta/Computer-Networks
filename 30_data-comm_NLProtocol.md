@@ -24,7 +24,8 @@
     + 3 bits
 - Fragment offset:
     + fragment offset from start of IP datagram
-    + 13 bits
+    + 13 bits <br>
+    + ![](fig/IPv4-header-fragment-offest.png)
 - Time To Live (TTL):
     + control how many times of the datagram can transfer through routers
     + 8 bits
@@ -67,4 +68,34 @@ __The minimum lenght of IP header is 20 bytes.__
 - Source: 0xc0a8013b = 192.168.1.59
 - Destination: 0xc0a80101 = 192.168.1.1
 
-### HW: Give your example of IP header (due date: 12/11).
+### HW 8: Give your example of IP header (due date: 12/11).
+
+# ICMP (Internet Control Message Protocol)
+- There is no _flow control_ or _congestion control_ mechanism in IP.
+
+![](fig/ICMP.png)
+
+![](fig/ICMP-header.png)
+
+- error-reporting message
+    + destination unreachible
+    + source quench
+    + time exceeded
+    + parameter problems
+    + redirection
+- query message
+    + echo request and reply (__ping__ & __traceroute__)
+    + time-stamp request and reply
+
+## ICMP - ping
+![](fig/ICMP-ping.png)
+
+- __ping request__
+
+![](fig/ICMP-ping-1.png)
+
+- __ping reply__
+
+![](fig/ICMP-ping-2.png)
+
+
