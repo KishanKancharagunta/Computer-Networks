@@ -45,6 +45,8 @@
 - Option
     + 0~40 bytes
 
+__The minimum lenght of IP header is 20 bytes.__
+
 ### IPv4 Header Wireshark example
 ![](fig/IP4v-header-ex.png)
 
@@ -64,3 +66,5 @@
 - Header checksum: 0x3caf
 - Source: 0xc0a8013b = 192.168.1.59
 - Destination: 0xc0a80101 = 192.168.1.1
+
+### HW: Give your example of IP header (due date: 12/11).
