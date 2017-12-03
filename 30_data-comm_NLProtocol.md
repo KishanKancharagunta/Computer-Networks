@@ -68,8 +68,6 @@ __The minimum lenght of IP header is 20 bytes.__
 - Source: 0xc0a8013b = 192.168.1.59
 - Destination: 0xc0a80101 = 192.168.1.1
 
-### HW 8: Give your example of IP header (due date: 12/11).
-
 # ICMP (Internet Control Message Protocol)
 - There is no _flow control_ or _congestion control_ mechanism in IP.
 
@@ -84,7 +82,7 @@ __The minimum lenght of IP header is 20 bytes.__
     + parameter problems
     + redirection
 - query message
-    + echo request and reply (__ping__ & __traceroute__)
+    + echo request and reply
     + time-stamp request and reply
 
 ## ICMP - ping
@@ -98,4 +96,4 @@ __The minimum lenght of IP header is 20 bytes.__
 
 ![](fig/ICMP-ping-2.png)
 
-
+# HW 8: Give your wireshark example of IP header (due date: 12/11).
