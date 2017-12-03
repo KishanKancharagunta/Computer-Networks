@@ -18,7 +18,7 @@
 - <a href="https://github.com/cnchenpu/data-comm/blob/master/20_data-comm_lab1-wireshark-arp.md#hw-use-wireshare-to-analyze-the-arp-protocol-due-116"> Homework 5</a>, due date: 11/6.
 - <a href="https://github.com/cnchenpu/data-comm/blob/master/21_data-comm_error-correct-1.md#hw-hamming-code-due-date-1113"> Homework 6-1</a>, due date: 11/13.
 - <a href="https://github.com/cnchenpu/data-comm/blob/master/22_data-comm_error-detect-CRC.md#hw-6-2-crc-coding-due-date-116"> Homework 6-2</a>, due date: 11/13.
-- <a href="https://github.com/cnchenpu/data-comm/blob/master/27_data-comm_wireless-LAN.md#hw--how-to-solve-the-exposed-terminal-problem-due-date-124"> Homework </a>, due date: 12/4.
+- <a href="https://github.com/cnchenpu/data-comm/blob/master/27_data-comm_wireless-LAN.md#hw--how-to-solve-the-exposed-terminal-problem-due-date-124"> Homework 7</a>, due date: 12/4.
 - <a href="https://trello.com/b/hvPtgAmU/presentation-topics"> Presentation Topics</a>, due date: 1/8.
 
 # Interesting:
