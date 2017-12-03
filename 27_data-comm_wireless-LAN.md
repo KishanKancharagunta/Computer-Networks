@@ -85,7 +85,7 @@ Please refers to textbook [chapter 15](https://github.com/cnchenpu/data-comm/blo
   
   ![](fig/RTS-CTS.png)
 
-## HW : How to solve the Exposed Terminal Problem (due date: 12/4)
+## HW 7: How to solve the Exposed Terminal Problem (due date: 12/4)
 
 # Mobile IP
   - Roaming issue 
