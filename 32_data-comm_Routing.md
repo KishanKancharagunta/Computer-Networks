@@ -34,4 +34,15 @@
 
 ![](fig/DVR-algo.png)
 
+### Problem of Distance Vector Algorithm
+- Count to Infinity
+  - if a link is broken (cost becomes infinity), every other router should be aware of it immediately, but in distance-vector routing, this takes some time
+- Two-Node Loop
+  - ![](fig/Two-Node-Loop.png)
+
+### Solution of problem of Distance Vector Algorithm
+- Split Horizon
+  - if node B thinks that the optimum route to reach X is via A, it does not need to advertise this piece of information to A
+  - In our scenario, node B eliminates the last line of its forwarding table before it sends it to A. In this case, node A keeps the value of infinity as the distance to X. Later, when node A sends its forwarding table to B, node B also corrects its forwarding table.
+
 ## Link State Algorithm
