@@ -3,6 +3,7 @@ You can find homework list in <a href="https://github.com/cnchenpu/data-comm/blo
 Note: <br>
 - A: On time and correct.
 - B: Delay or not correct.
+- C: Complement to make up.
 - Comments for input, output and codes are needed for your programs.
 - Some projects have bonus points.
 
@@ -19,8 +20,10 @@ Note: <br>
 |HW 06-2|11/13|A |A |A  |A  |A |A |   |  |   | | | |  |  | |
 |HW 07  |12/ 4|  |  |   |   |  |  |   |  |   | | | |  |  | |
 |HW 08  |12/11|  |  |   |   |  |  |   |  |   | | | |  |  | |
+|HW 09  |12/25|  |  |   |   |  |  |   |  |   | | | |  |  | |
 |Mid-EX |11/13|96|84|100|92 |74|82|100|76|100| | | |64|98| |
 |Prj 01 |10/16|  |  |A  |A++|  |  |   |  |?  |A|?| |A |  | |
+|Prj 02 |  1/1|  |  |   |   |  |  |   |  |   | | | |  |  | |
 |.      |.    |1 |2 |3  |4  |5 |6 |7  |8 |9  |a|b|c|d |e |f|
 |.      |.    |. |. |.  |.  |. |. |.  |. |.  |.|.|.|. |. |.|
 |.     |.    |<a href="https://github.com/jiaxling/Homework">.</a>|<a href="https://github.com/miou3596/data-comm-hw">.</a>|<a href="https://github.com/YA-ZIH/homework">.</a>|<a href="https://github.com/otaGran/Data_Communications_and_Networking">.</a>|<a href="https://github.com/lunlunhuang/Homework">.</a>|<a href="https://github.com/music24241/DCN">.</a>|<a href="https://github.com/mcps015/homework">.</a>|<a href="https://github.com/lizoe1214/zoe">.</a>|<a href="https://github.com/Edwin1206/HW">.</a>|<a href="https://github.com/Jun-shen/homework">.</a>|<a href="https://github.com/st230912/data-comm">.</a>|.|<a href="https://github.com/rockuass1235/Data-Communication-Network">.</a>|.|.|
