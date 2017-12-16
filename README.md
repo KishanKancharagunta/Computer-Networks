@@ -21,7 +21,7 @@
 - <a href="https://github.com/cnchenpu/data-comm/blob/master/27_data-comm_wireless-LAN.md#hw--how-to-solve-the-exposed-terminal-problem-due-date-124"> Homework 7</a>, due date: 12/4.
 - <a href="https://github.com/cnchenpu/data-comm/blob/master/30_data-comm_NLProtocol.md#hw-8-give-your-wireshark-example-of-ip-header-due-date-1211"> Homework 8</a>, due date: 12/11.
 - <a href="https://github.com/cnchenpu/data-comm/blob/master/32_data-comm_Routing.md#hw-9-find-the-shortest-path-of-following-graph-by-dijkstra-algorithm-due-date-1225"> Homework 9</a>, due date: 12/25.
-- <a href"https://github.com/cnchenpu/data-comm/blob/master/32_data-comm_Routing.md#project-2-your-implementation-of-dijkstra-algorithm-deu-date-201811"> Project 2</a>, due date: 2018/1/1.
+- <a href="https://github.com/cnchenpu/data-comm/blob/master/32_data-comm_Routing.md#project-2-your-implementation-of-dijkstra-algorithm-deu-date-201811"> Project 2</a>, due date: 2018/1/1.
 - <a href="https://trello.com/b/hvPtgAmU/presentation-topics"> Presentation Topics</a>, due date: 2018/1/8.
 
 # Interesting:
