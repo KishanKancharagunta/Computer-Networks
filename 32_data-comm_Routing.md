@@ -66,6 +66,7 @@
 - ![](fig/Dijkstra-1.png)
 - ![](fig/Dijkstra-algo.png)
 
-## Single Source Shortest Path
+## Greedy Method
+![](fig/Dijkstra-2.png)
 
 
