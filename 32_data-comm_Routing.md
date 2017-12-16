@@ -7,6 +7,9 @@
 ![](fig/Least-Cost-Tree.png)
 
 # Routing Algorithm
+## Bellman-Ford Equation
+- __D<sub>_ij_</sub>__ is the shortest distance and __c<sub>_ij_</sub>__ is the cost between nodes ___i___ and ___j___.
+
 ## Distance Vector Algorithm
 - each node creates is its own least-cost tree about its immediate neighbors
 - exchange information between immediate neighbors to make the tree more and more complete
