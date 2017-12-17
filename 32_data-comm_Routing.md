@@ -68,12 +68,16 @@
 
 ## Single Source Shortest Path
 - a shortest path from one vertex to rest others
-- greedy method
+- greedy method <br>
 ![](fig/Dijkstra-2.png)
 
-# Routing Information Protocol (RIP) 
-- based on the distance-vector routing algorithm 
+## Routing Protocol Implementations
+- Routing Information Protocol (RIP) 
+  - based on the distance-vector routing algorithm <br>
+![](fig/RIP.png)
 
+- Open Shortest Path First (OSPF) 
+  - based on the link-state routing protocol <br>
 
 ## HW 9: Find the shortest path of following graph by Dijkstra algorithm (due date: 12/25)
 ![](fig/Dijkstra-hw.png)
