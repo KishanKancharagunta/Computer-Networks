@@ -73,6 +73,6 @@
 
 # HW 9: Find the shortest path of following graph by Dijkstra algorithm (due date: 12/25)
 ![](fig/Dijkstra-hw.png)
-# Project 2: Your implementation of Dijkstra algorithm (deu date: 2018/1/1)
+# Project 2: Your implementation of Dijkstra algorithm (due date: 2018/1/1)
 - input: a matrix of above graph
 - output: each steps of the matrix changes when a new vertex added to the path.
