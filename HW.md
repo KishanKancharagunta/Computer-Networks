@@ -23,7 +23,7 @@ Note: <br>
 |HW 09  |12/25|A |A |B  |A  |  |  |A  |B |   | | | |  |  | |
 |Mid-EX |11/13|96|84|100|92 |74|82|100|76|100| | | |64|98| |
 |Prj 01 |10/16|  |  |A  |A++|  |  |   |  |?  |A|?| |A |  | |
-|Prj 02 |  1/1|  |  |   |A+ |  |  |   |  |   | | | |  |  | |
+|Prj 02 |  1/1|  |  |A+ |A+ |  |  |   |  |   | | | |  |  | |
 |.      |.    |1 |2 |3  |4  |5 |6 |7  |8 |9  |a|b|c|d |e |f|
 |.      |.    |. |. |.  |.  |. |. |.  |. |.  |.|.|.|. |. |.|
 |.     |.    |<a href="https://github.com/jiaxling/Homework">.</a>|<a href="https://github.com/miou3596/data-comm-hw">.</a>|<a href="https://github.com/YA-ZIH/homework">.</a>|<a href="https://github.com/otaGran/Data_Communications_and_Networking">.</a>|<a href="https://github.com/lunlunhuang/Homework">.</a>|<a href="https://github.com/music24241/DCN">.</a>|<a href="https://github.com/mcps015/homework">.</a>|<a href="https://github.com/lizoe1214/zoe">.</a>|<a href="https://github.com/Edwin1206/HW">.</a>|<a href="https://github.com/Jun-shen/homework">.</a>|<a href="https://github.com/st230912/data-comm">.</a>|.|<a href="https://github.com/rockuass1235/Data-Communication-Network">.</a>|.|.|
