@@ -17,7 +17,7 @@ In Fibre Channel there’s a special term for a port identifier, specifically WW
 
 ## FC Ports
 
-!p[(fig/FC_ports.png)
+![](fig/FC_ports.png)
 
 ## Zone
 A zone is simply a list of IDs containing an initiator port ID and one or more target port IDs.  It’s like setting up virtual cabling or paths so that there’s a data path from the initiators to the targets.
