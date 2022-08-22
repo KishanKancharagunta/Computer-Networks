@@ -1,18 +1,11 @@
-# Computer Networks
+# (19PC1CS07) COMPUTER NETWORKS
 ## Syllabus
-VNR VIGNANA JYOTHI INSTITUTE OF ENGINEERING AND TECHNOLOGY
-B.Tech. V Semester – CSE & IT L T/P/D C
-2 1 3
-(19PC1CS07) COMPUTER NETWORKS
 COURSE OBJECTIVES:
- To develop an understanding of modern network architectures from a design
-and performance perspective
- To introduce the student to the major concepts, principles involved in Data Link
-Layer and Network Layer
- To provide an opportunity to learn how to maintain QoS in Network &
-maintaining of Congestion Control
- To get an idea of Application Layer functionalities and importance of Security in
-the Network
+###To develop an understanding of modern network architectures from a design and performance perspective
+### To introduce the student to the major concepts, principles involved in Data Link Layer and Network Layer
+### To provide an opportunity to learn how to maintain QoS in Network & maintaining of Congestion Control
+### To get an idea of Application Layer functionalities and importance of Security in the Network
+
 COURSE OUTCOMES: After completion of the course, the student should be able to
 CO-1: Understand modern network architectures from a design and performance
 perspective
