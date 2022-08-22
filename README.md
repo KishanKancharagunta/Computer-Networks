@@ -7,10 +7,10 @@
  - To get an idea of Application Layer functionalities and importance of Security in the Network
 
 ### COURSE OUTCOMES: After completion of the course, the student should be able to
-  CO-1: Understand modern network architectures from a design and performance perspective
-  CO-2: Learn major concepts, principals involved in Data Link Layer and Network Layer
-  CO-3: Analyze how to maintain QoS in Network and maintaining of Congestion Control
-  CO-4: Get an idea of Application Layer functionalities and importance of Security in the Network
+  - CO-1: Understand modern network architectures from a design and performance perspective
+  - CO-2: Learn major concepts, principals involved in Data Link Layer and Network Layer
+  - CO-3: Analyze how to maintain QoS in Network and maintaining of Congestion Control
+  - CO-4: Get an idea of Application Layer functionalities and importance of Security in the Network
 ### UNIT – I:
 Data Communication Components: Representation of data and its flow Networks, Various Connection Topology, Protocols and Standards, OSI model, Transmission Media, Overview of LAN: Wired LAN, Wireless LANs, Connecting LAN and Virtual LAN, Techniques for Band width utilization: Multiplexing - Frequency division, Time division and Wave division, Conceptson spread spectrum.
 
