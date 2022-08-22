@@ -1,41 +1,51 @@
-# Notes:
-- [Midterm exam](data-comm-2017-mid.docx) at 11/13.
-    - from ch 2 to ch 12.
-    - Ans: AABCD BAABC CACBB BCCBB DCBAA BDCBA BBACA CACBC CBBAA BACDA
-- Every week has a homework and the due date is before next class.
-- Homework must submit to your github repository.
+# Computer Networks
 
-# Homework & Project:
-- <a href="https://github.com/cnchenpu/data-comm/blob/master/03_data-comm_infor-basis.md#entropy"> Homework 1</a>, due date: 9/25.
-- Homework 2, due date: 10/2.
-    - <a href="https://github.com/cnchenpu/data-comm/blob/master/04_data-comm_coding.md#homework-due-date-102"> 1. prefix free code </a>
-    - <a href="https://github.com/cnchenpu/data-comm/blob/master/05_data-comm_huffman-code.md#homework-due-date-102"> 2. Huffman code </a>
-    - <a href="https://github.com/cnchenpu/data-comm/blob/master/06_data-comm_lzw-code.md#homework-due-date-102"> 3. LZW algorithm </a>
-    
-- <a href="https://github.com/cnchenpu/data-comm/blob/master/05_data-comm_huffman-code.md#program-project-due-date-1016"> Project 1</a>, due date: 10/16.
-- <a href="https://github.com/cnchenpu/data-comm/blob/master/11_data-comm_digital-trans_D2D.md#hw-due-date-1023"> Homework 3</a>, due date: 10/23.
-- <a href="https://github.com/cnchenpu/data-comm/blob/master/16_data-comm_media.md#hw-due-date-1030"> Homework 4</a>, due date: 10/30.
-- <a href="https://github.com/cnchenpu/data-comm/blob/master/20_data-comm_lab1-wireshark-arp.md#hw-use-wireshare-to-analyze-the-arp-protocol-due-116"> Homework 5</a>, due date: 11/6.
-- <a href="https://github.com/cnchenpu/data-comm/blob/master/21_data-comm_error-correct-1.md#hw-hamming-code-due-date-1113"> Homework 6-1</a>, due date: 11/13.
-- <a href="https://github.com/cnchenpu/data-comm/blob/master/22_data-comm_error-detect-CRC.md#hw-6-2-crc-coding-due-date-116"> Homework 6-2</a>, due date: 11/13.
-- <a href="https://github.com/cnchenpu/data-comm/blob/master/27_data-comm_wireless-LAN.md#hw--how-to-solve-the-exposed-terminal-problem-due-date-124"> Homework 7</a>, due date: 12/4.
-- <a href="https://github.com/cnchenpu/data-comm/blob/master/30_data-comm_NLProtocol.md#hw-8-give-your-wireshark-example-of-ip-header-due-date-1211"> Homework 8</a>, due date: 12/11.
-- <a href="https://github.com/cnchenpu/data-comm/blob/master/32_data-comm_Routing.md#hw-9-find-the-shortest-path-of-following-graph-by-dijkstra-algorithm-due-date-1225"> Homework 9</a>, due date: 12/25.
-- <a href="https://github.com/cnchenpu/data-comm/blob/master/32_data-comm_Routing.md#project-2-your-implementation-of-dijkstra-algorithm-deu-date-201811"> Project 2</a>, due date: 2018/1/1.
-- <a href="https://trello.com/b/hvPtgAmU/presentation-topics"> Presentation Topics</a>, due date: 2018/1/8.
+## Overview
 
-# Interesting:
-- <a href="https://softnshare.wordpress.com/2017/11/16/iot-security-5-things-to-know/"> 物聯網安全趨勢洞見 </a>
-- <a href="https://www.techbang.com/posts/54565-usb-3-x-speed-difference-understand-different-coding-methods-the-effect-of"> USB 3.x速度大不同，看懂不同編碼方式對效能的影響 </a>
-- <a href="http://www.bbc.com/ukchina/trad/vert_fut/2016/05/160518_vert_fut_the-invisible-language-of-trains-boats-and-planes"> 支配全球物流運輸網的秘密信號 </a>
-- <a href="https://en.wikipedia.org/wiki/Sigfox"> Sigfox 低頻低速 IoT 網路 </a>
-- <a href="http://pansci.asia/archives/124494"> 1909年的諾貝爾物理奬——長距離無線電通訊 </a>
-- <a href="https://github.com/cnchenpu/data-comm/wiki/Bluetooth-Mesh"> Bluetooth Mash </a>
-- <a href="https://www.armis.com/blueborne/"> The IoT Attack Vector “BlueBorne” Exposes Almost Every Connected Device </a>
-- <a href="http://www.bbc.com/ukchina/trad/vert-tra-41597892"> 到加拿大接收跨大西洋無線電信號 - 馬可尼的第一個信號 </a>
+The entire CN course covers all five layers of the **Internet protocol stack**. namely: 
+*	The **Application** layer where mails, `http`, websites, etc exist. 
+*	The **Transport** layer: `TCP`/`UDP` protocols
+*	The **Network** layer: `IP` protocols and routing. 
+*	The **Physical** and **Data Link** layers: for packaging and moving data across wires
 
-# Textbook:
-- Behrouz A. Forouzan / Data Communications and Networking 5th Edition / McGraw-Hill 
+Kurose & Ross is certainly worth a read. Google's networks course is a recommended supplement for beginners. PowerCert covers speicifc topics that you can search for. The reference books can be read for anyone looking at a deeper insight into design techniques.
 
-# Reference:
-- <a href="https://en.wikipedia.org/wiki/A_Mathematical_Theory_of_Communication">Claude E. Shannon, A Mathematical Theory of Communication (1948)</a>
+## Prerequisites
+
+This course has no prerequisites.
+
+## Textbooks
+
+| Title | Author(s) | Edition |
+| -------------|-------------|:-----:|
+| [Computer Networks: A Top Down Approach](https://drive.google.com/open?id=1p6meleR3Eutf97yRag-McLrjv8olPTLE) | Kurose & Ross | 6th (2013) |
+| [Computer Networks: A Systems Approach](https://drive.google.com/open?id=13NzfDz6FbRoHUmeL6bkQfUjUCpQyd_QA) | Peterson & Davie | 5th (2012) |
+| [Data Communication & Networking](https://drive.google.com/open?id=13frawLX1gT_0JnKOiEOnSeoHp-kp9-qO) | Forouzan | 5th (2013) |
+| [TCP/IP Protocol Suite](https://drive.google.com/open?id=1Usfu1MlxY2PJfYZx1NXbeXlRrMQbrvk8)| Forouzan | 4th (2010) |
+| [Computer Networks](https://drive.google.com/open?id=1QKS_Za5p9vAbifwbO9Wsws2xjg5Wj4pG)| Tanenbaum & Wetherall | 5th (2011) |
+| [Computer Networks: A Top Down Approach Solution Manual](https://drive.google.com/open?id=1JXNP7EmQBdI8xZHxzpm21TjzhcFwVOsS)| Kurose & Ross | 6th (2013) |
+| [Computer Networks: A Systems Approach Solution Manual](https://drive.google.com/open?id=1HmJ_FGfoTFYT187ex-l0UUZ4vs7I9OOd)| Peterson & Davie | 5th (2012) |
+| [Data Communication & Networking Solution Manual](https://drive.google.com/open?id=1RFxqwxCWB0gMeb9HIBZ3cJMZXspJsisz)| Forouzan | 5th (2013) |
+| [Computer Networks Solution Manual](https://drive.google.com/open?id=18NnsSUl_vkjY1_EcOFIWNFVqbLql6d-q)| Tanenbaum & Wetherall | 5th (2011) |
+| [The Illustrated Network: How TCP/IP Works](https://drive.google.com/open?id=1yhGt1Jvr2fx41wWDmTxEPoVZaZxufD_1)| Walter Goraski | 2nd (2017) |
+
+
+## Videos
+
+*	[Bits & Bytes of Computer Networking, *Google*](https://www.coursera.org/learn/computer-networking?specialization=google-it-support) *(Full Course)*
+*	[Computer Networking Tutorial, *Microsoft*](https://www.youtube.com/watch?v=svkGASq8mNM&t=9772s) *(Full Course)*
+*	[Computer Networks, *Ravindrababu Ravula*](https://www.youtube.com/watch?v=UXMIxCYZu8o&list=PLEbnTDJUr_IegfoqO4iPnPYQui46QqT0j) *(Full Course)*
+*	[CCNA Course, *NetworKING*](https://www.youtube.com/watch?v=n2D1o-aM-2s&list=PLh94XVT4dq02frQRRZBHzvj2hwuhzSByN)
+*	[Computer Networks,*Gate Smashers*](https://www.youtube.com/playlist?list=PLxCzCOWd7aiGFBD2-2joCpWOLUrDLvVV_) *(Full Course)*
+*	[Information Technology, *PowerCert*](https://www.youtube.com/playlist?list=PL7zRJGi6nMRzHkyXpGZJg3KfRSCrF15Jg)
+
+*	[Domain Name Servers (DNS)](https://www.youtube.com/watch?v=72snZctFFtA&t=1s)
+*	[Dynamic Host Configuration Protocol (DHCP)](https://www.youtube.com/watch?v=IUOVSIKj6GU&t=1s)
+*	[Simple Mail Transfer Protocol (SMTP)](https://www.youtube.com/watch?v=j7kMZD81hec&t=1s)
+*	[Network Address Translation (NAT)](https://www.youtube.com/watch?v=QBqPzHEDzvo)
+
+## Websites
+
+*	[Online Lecture Notes, *IIT Kharagpur*](https://www.cse.iitk.ac.in/users/dheeraj/cs425//)
+*	[Textbook Slides, *Kurose & Ross Companion Site*](http://www-net.cs.umass.edu/kurose-ross-ppt-6e/)
+*	[Create a Subnet, *Cybrary*](https://www.cybrary.it/skill-certification-course/subnetting-certification-training-course/)
