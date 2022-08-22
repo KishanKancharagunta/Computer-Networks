@@ -40,15 +40,9 @@ Message Integrity, Message Authentication, Digital Signature, Entity Authenticat
 2. Internetworking with TCP/IP, Volume 1, 6th Edition Douglas Comer, Prentice Hall of India
 3. TCP/IP Illustrated, Volume 1, W. Richard Stevens, Addison-Wesley
 
-## Overview
-
-The entire CN course covers all five layers of the **Internet protocol stack**. namely: 
-*	The **Application** layer where mails, `http`, websites, etc exist. 
-*	The **Transport** layer: `TCP`/`UDP` protocols
-*	The **Network** layer: `IP` protocols and routing. 
-*	The **Physical** and **Data Link** layers: for packaging and moving data across wires
-
-Kurose & Ross is certainly worth a read. Google's networks course is a recommended supplement for beginners. PowerCert covers speicifc topics that you can search for. The reference books can be read for anyone looking at a deeper insight into design techniques.
+## Class Work
+| S.No | Date | Concept | Lecture Slides | Link|
+| -------------|-------------|:-----:|--------|---------|
 
 ## Prerequisites
 
