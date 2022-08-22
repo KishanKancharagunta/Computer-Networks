@@ -43,6 +43,7 @@ Message Integrity, Message Authentication, Digital Signature, Entity Authenticat
 ## Class Work
 | S.No | Date | Concept | Lecture Slides | Link|
 | -------------|-------------|:-----:|--------|---------|
+|1 |22-08-2022|Introduction | | | 
 
 ## Prerequisites
 
