@@ -1,59 +1,45 @@
 # (19PC1CS07) COMPUTER NETWORKS
 ## Syllabus
-COURSE OBJECTIVES:
-###To develop an understanding of modern network architectures from a design and performance perspective
-### To introduce the student to the major concepts, principles involved in Data Link Layer and Network Layer
-### To provide an opportunity to learn how to maintain QoS in Network & maintaining of Congestion Control
-### To get an idea of Application Layer functionalities and importance of Security in the Network
+###COURSE OBJECTIVES:
+ - To develop an understanding of modern network architectures from a design and performance perspective
+ - To introduce the student to the major concepts, principles involved in Data Link Layer and Network Layer
+ - To provide an opportunity to learn how to maintain QoS in Network & maintaining of Congestion Control
+ - To get an idea of Application Layer functionalities and importance of Security in the Network
 
-COURSE OUTCOMES: After completion of the course, the student should be able to
-CO-1: Understand modern network architectures from a design and performance
-perspective
-CO-2: Learn major concepts, principals involved in Data Link Layer and Network
-Layer
-CO-3: Analyze how to maintain QoS in Network and maintaining of Congestion
-Control
-CO-4: Get an idea of Application Layer functionalities and importance of Security in
-the Network
-UNIT – I:
-Data Communication Components: Representation of data and its flow Networks,
-Various Connection Topology, Protocols and Standards, OSI model, Transmission
-Media, Overview of LAN: Wired LAN, Wireless LANs, Connecting LAN and Virtual LAN,
-Techniques for Band width utilization: Multiplexing - Frequency division, Time division
-and Wave division, Conceptson spread spectrum.
-UNIT – II:
-Data Link Layer and Medium Access Sub Layer: Error Detection and Error Correction
--Fundamentals, Block coding, Hamming Distance, CRC; Flow Control and Error
-control protocols - Stop and Wait, Go back – N ARQ, Selective Repeat ARQ, Sliding
-Window, Piggybacking, Random Access, Multiple access protocols -Pure ALOHA,
-Slotted ALOHA, CSMA/CD, CDMA/CA
-UNIT – III:
-Network Layer: Switching, Logical addressing – IPV4, IPV6; Address mapping – ARP,
-RARP, BOOTP and DHCP–Delivery, Forwarding and Unicast Routing protocols.
-UNIT – IV:
-Transport Layer: Process to Process Communication, User Datagram Protocol (UDP),
-Transmission Control Protocol (TCP), SCTP Congestion Control; Quality of Service, QoS
+###COURSE OUTCOMES: After completion of the course, the student should be able to
+  CO-1: Understand modern network architectures from a design and performance perspective
+  CO-2: Learn major concepts, principals involved in Data Link Layer and Network Layer
+  CO-3: Analyze how to maintain QoS in Network and maintaining of Congestion Control
+  CO-4: Get an idea of Application Layer functionalities and importance of Security in the Network
+###UNIT – I:
+Data Communication Components: Representation of data and its flow Networks, Various Connection Topology, Protocols and Standards, OSI model, Transmission Media, Overview of LAN: Wired LAN, Wireless LANs, Connecting LAN and Virtual LAN, Techniques for Band width utilization: Multiplexing - Frequency division, Time division and Wave division, Conceptson spread spectrum.
+
+###UNIT – II:
+Data Link Layer and Medium Access Sub Layer: Error Detection and Error Correction-Fundamentals, Block coding, Hamming Distance, CRC; Flow Control and Error control protocols - Stop and Wait, Go back – N ARQ, Selective Repeat ARQ, Sliding Window, Piggybacking, Random Access, Multiple access protocols -Pure ALOHA, Slotted ALOHA, CSMA/CD, CDMA/CA
+
+###UNIT – III:
+Network Layer: Switching, Logical addressing – IPV4, IPV6; Address mapping – ARP, RARP, BOOTP and DHCP–Delivery, Forwarding and Unicast Routing protocols.
+
+###UNIT – IV:
+Transport Layer: Process to Process Communication, User Datagram Protocol (UDP), Transmission Control Protocol (TCP), SCTP Congestion Control; Quality of Service, QoS
 improving techniques: Leaky Bucket and Token Bucket algorithm.
-UNIT – V:
-Application Layer: Domain Name Space (DNS), DDNS, TELNET, EMAIL, File Transfer
-Protocol (FTP), WWW, HTTP, SNMP, Firewalls.
-10
-UNIT – VI:
-Security: Cryptography- Symmetric-Key Cryptography, Asymmetric-Key
-Cryptography, Network Security- Security Services, Message Confidentiality,
-Message Integrity, Message Authentication, Digital Signature, Entity Authentication,
-Key Management.
-TEXT BOOKS:
-1. Data Communication and Networking, 4th Edition, Behrouz A. Forouzan, Tata
-McGraw- Hill
-2. Computer Networks, 8th Edition, Andrew S. Tanenbaum, Pearson New
-International Edition
-REFERENCES:
-1. Data and Computer Communication, 8th Edition, William Stallings, Pearson
-PrenticeHall India
-2. Internetworking with TCP/IP, Volume 1, 6th Edition Douglas Comer, Prentice Hall of
-India
+
+###UNIT – V:
+Application Layer: Domain Name Space (DNS), DDNS, TELNET, EMAIL, File Transfer Protocol (FTP), WWW, HTTP, SNMP, Firewalls.
+
+###UNIT – VI:
+Security: Cryptography- Symmetric-Key Cryptography, Asymmetric-Key Cryptography, Network Security- Security Services, Message Confidentiality,
+Message Integrity, Message Authentication, Digital Signature, Entity Authentication, Key Management.
+
+###TEXT BOOKS:
+1. Data Communication and Networking, 4th Edition, Behrouz A. Forouzan, Tata McGraw- Hill
+2. Computer Networks, 8th Edition, Andrew S. Tanenbaum, Pearson New International Edition
+
+###REFERENCES:
+1. Data and Computer Communication, 8th Edition, William Stallings, Pearson PrenticeHall India
+2. Internetworking with TCP/IP, Volume 1, 6th Edition Douglas Comer, Prentice Hall of India
 3. TCP/IP Illustrated, Volume 1, W. Richard Stevens, Addison-Wesley
+
 ## Overview
 
 The entire CN course covers all five layers of the **Internet protocol stack**. namely: 
